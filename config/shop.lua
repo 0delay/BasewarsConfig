@@ -47,7 +47,7 @@ items["bw_item_health"] = {
     limit = 2,
     name = "Medic Kit",
     hint = "Gives 100 health",
-    price = 4500,
+    price = 4000,
     order = 1,
     model = "models/Items/HealthKit.mdl"
 }
