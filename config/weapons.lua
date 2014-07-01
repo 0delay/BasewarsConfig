@@ -85,8 +85,8 @@ weapon = {}
 	weapon["m9k_tar21"] 		= {cat = "Weapon - Rifles", ent = "m9k_tar21",			name = "Tar 21",		hint = "",		price = 6000, 	order = 19, model = "models/weapons/w_imi_tar21.mdl"}		//ammo 30
 	weapon["m9k_val"] 			= {cat = "Weapon - Rifles", ent = "m9k_val",			name = "Val",			hint = "",		price = 6000, 	order = 20, model = "models/weapons/w_dmg_vally.mdl"}		//ammo 20
 	
-    -- Heavy
-    weapon["m9k_ares_shrike"] 	= {ent = "m9k_ares_shrike", cat = "Weapon - Heavy", name = "Ares Shrike",		hint = "",		price = 17000, 	order = 1, model = "models/weapons/w_ares_shrike.mdl"}			//ammo 200
+        -- Heavy
+        weapon["m9k_ares_shrike"] 	= {ent = "m9k_ares_shrike", cat = "Weapon - Heavy", name = "Ares Shrike",		hint = "",		price = 17000, 	order = 1, upg={5,10,5,0,10,0,0,0}, model = "models/weapons/w_ares_shrike.mdl"}			//ammo 200
 	weapon["m9k_fg42"] 			= {ent = "m9k_fg42", cat = "Weapon - Heavy", name = "fg42",				hint = "",		price = 6000, 	order = 2, model = "models/weapons/w_fg42.mdl"}					//ammo 20
 	weapon["m9k_m60"] 			= {ent = "m9k_m60", cat = "Weapon - Heavy", name = "M60",				hint = "OMFG it's THE M60!",		price = 17000, 	order = 3, upg={5,10,5,0,10,0,0,0}, model = "models/weapons/w_m60_machine_gun.mdl"}		//ammo 200
 	weapon["m9k_m249lmg"] 		= {ent = "m9k_m249lmg", cat = "Weapon - Heavy", name = "M249",				hint = "",		price = 17000, 	order = 4, model = "models/weapons/w_m249_machine_gun.mdl"}		//ammo 150
