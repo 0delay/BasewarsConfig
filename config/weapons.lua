@@ -93,7 +93,7 @@ weapon["m9k_colt1911"] = {
     hint = "",
     price = 5000,
     order = 1,
-    upg={5,10,20,0,10,0,0,0},
+    upg={5,25,20,0,10,0,10,0},
     model = "models/weapons/s_dmgf_co1911.mdl"
 }
 weapon["m9k_coltpython"] = {
@@ -103,7 +103,7 @@ weapon["m9k_coltpython"] = {
     hint = "",
     price = 5000,
     order = 2,
-    upg={5,10,5,0,7,0,0,0},
+    upg={5,15,0,0,0,0,7,10},
     model = "models/weapons/w_colt_python.mdl"
 }
 weapon["m9k_deagle"] = {
@@ -113,7 +113,7 @@ weapon["m9k_deagle"] = {
     hint = "",
     price = 5000,
     order = 3,
-    upg={5,5,10,0,10,0,0,0},
+    upg={5,0,10,0,5,0,0,5},
     model = "models/weapons/w_tcom_deagle.mdl"
 }
 weapon["m9k_glock"] = {
@@ -243,7 +243,7 @@ weapon["m9k_usp"] = {
     hint = "",
     price = 5000,
     order = 16,
-    upg={5,12,0,0,5,0,0,5},
+    upg={5,15,0,0,5,0,0,5},
     model = "models/weapons/w_pist_fokkususp.mdl"
 }
 /*#################################################
