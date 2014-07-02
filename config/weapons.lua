@@ -21,6 +21,8 @@ weapon = {}
         model = "models/weapons/w_m60_machine_gun.mdl"
     }
     */
+    
+    -- Everything between   /*   and   */   is a comment and will not be executed!
 
 /*#################################################
 ###     Melee weapons
