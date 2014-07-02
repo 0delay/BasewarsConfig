@@ -1049,6 +1049,7 @@ weapon["weapon_nyangun"] = {
     hint = "",
     price = 0,
     order = 1,
+    upg={100,20,5,20,20,20,20},
     admin = true,
     model = "models/weapons/w_smg1.mdl"
 }
