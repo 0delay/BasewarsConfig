@@ -15,9 +15,9 @@ weapon = {}
         cat = "Weapon - Heavy",
         name = "M60",
         hint = "OMFG it's THE M60!",
-        price = 15000,
+        price = 17000,
         order = 3,
-        upg={5,10,5,0,10,0,0,0},
+        upg={5,10,5,0,10,0,5,0},
         model = "models/weapons/w_m60_machine_gun.mdl"
     }
     */
