@@ -103,6 +103,7 @@ weapon["m9k_coltpython"] = {
     hint = "",
     price = 5000,
     order = 2,
+    upg={5,10,5,0,7,0,0,0},
     model = "models/weapons/w_colt_python.mdl"
 }
 weapon["m9k_deagle"] = {
@@ -112,6 +113,7 @@ weapon["m9k_deagle"] = {
     hint = "",
     price = 5000,
     order = 3,
+    upg={5,5,10,0,10,0,0,0},
     model = "models/weapons/w_tcom_deagle.mdl"
 }
 weapon["m9k_glock"] = {
@@ -121,6 +123,7 @@ weapon["m9k_glock"] = {
     hint = "",
     price = 15000,
     order = 4,
+    upg={5,6,0,0,5,5,0,2},
     model = "models/weapons/w_dmg_glock.mdl"
 }
 weapon["m9k_hk45"] = {
@@ -130,6 +133,7 @@ weapon["m9k_hk45"] = {
     hint = "",
     price = 5000,
     order = 5,
+    upg={5,12,0,0,7,0,0,0},
     model = "models/weapons/w_hk45c.mdl"
 }
 weapon["m9k_luger"] = {
@@ -139,6 +143,7 @@ weapon["m9k_luger"] = {
     hint = "",
     price = 5000,
     order = 6,
+    upg={5,12,0,0,7,0,0,0},
     model = "models/weapons/w_luger_p08.mdl"
 }
 weapon["m9k_m29satan"] = {
@@ -148,6 +153,7 @@ weapon["m9k_m29satan"] = {
     hint = "",
     price = 5000,
     order = 7,
+    upg={5,10,0,0,10,0,5,0},
     model = "models/weapons/w_m29_satan.mdl"
 }
 weapon["m9k_m92beretta"] = {
@@ -157,6 +163,7 @@ weapon["m9k_m92beretta"] = {
     hint = "",
     price = 7000,
     order = 8,
+    upg={5,12,0,0,3,0,0,0},
     model = "models/weapons/w_beretta_m92.mdl"
 }
 weapon["m9k_model3russian"] = {
@@ -166,6 +173,7 @@ weapon["m9k_model3russian"] = {
     hint = "",
     price = 9000,
     order = 9,
+    upg={5,10,0,0,10,0,5,0},
     model = "models/weapons/w_model_3_rus.mdl"
 }
 weapon["m9k_model500"] = {
@@ -175,6 +183,7 @@ weapon["m9k_model500"] = {
     hint = "",
     price = 9000,
     order = 10,
+    upg={5,10,0,0,7,0,5,0},
     model = "models/weapons/w_sw_model_500.mdl"
 }
 weapon["m9k_model627"] = {
@@ -184,6 +193,7 @@ weapon["m9k_model627"] = {
     hint = "",
     price = 9000,
     order = 11,
+    upg={5,10,0,0,10,0,5,0},
     model = "models/weapons/w_sw_model_627.mdl"
 }
 weapon["m9k_ragingbull"] = {
@@ -193,6 +203,7 @@ weapon["m9k_ragingbull"] = {
     hint = "",
     price = 5000,
     order = 12,
+    upg={5,10,0,0,10,0,5,0},
     model = "models/weapons/w_taurus_raging_bull.mdl"
 }
 weapon["m9k_remington1858"] = {
@@ -202,6 +213,7 @@ weapon["m9k_remington1858"] = {
     hint = "",
     price = 5000,
     order = 13,
+    upg={5,10,0,0,10,0,5,0},
     model = "models/weapons/w_remington_1858.mdl"
 }
 weapon["m9k_scoped_taurus"] = {
@@ -211,6 +223,7 @@ weapon["m9k_scoped_taurus"] = {
     hint = "",
     price = 8000,
     order = 14,
+    upg={5,10,0,0,10,0,7,5},
     model = "models/weapons/w_raging_bull_scoped.mdl"
 }
 weapon["m9k_sig_p229r"] = {
@@ -220,6 +233,7 @@ weapon["m9k_sig_p229r"] = {
     hint = "",
     price = 5000,
     order = 15,
+    upg={5,12,0,0,7,0,0,5},
     model = "models/weapons/w_sig_229r.mdl"
 }
 weapon["m9k_usp"] = {
@@ -229,6 +243,7 @@ weapon["m9k_usp"] = {
     hint = "",
     price = 5000,
     order = 16,
+    upg={5,12,0,0,5,0,0,5},
     model = "models/weapons/w_pist_fokkususp.mdl"
 }
 /*#################################################
