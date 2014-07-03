@@ -96,13 +96,13 @@ xp = {}
     cfg["door_max_count"]             = 2
     cfg["door_respawn"]               = 1 * 10
     cfg["door_dmg_scale"]             = 0.3
-    cfg["door_lock_types"]            = { "prop_door_rotating", "func_door", "func_button" }
+    cfg["door_lock_types"]            = { "prop_door_rotating", "func_door", "func_door_rotating", "func_button" }
     
     -- Prop protection
     cfg["pp_dctime"]               = 60 * 10
     cfg["pp_dmgvalid"]             = { "worldspawn", "bw_struc_", "bw_item_", "bw_base_props", "prop_door_rotating", "prop_dynamic", "prop_physics", "prop_physics_multiplayer" }
     cfg["pp_bulletproof"]          = { "bw_base_props", "bw_money", "m9k_", "prop_door_rotating", "bw_fake_door", "prop_dynamic", "prop_physics", "prop_physics_multiplayer" }
-    cfg["pp_physgunpickup"]        = { "bw_struc_spawn", "bw_struc_tele_entrance", "bw_struc_tele_exit", "prop_door_rotating", "bw_fake_door", "prop_dynamic", "func_" } -- removed "prop_physics" "prop_physics_multiplayer"
+    cfg["pp_nopickup"]             = { "bw_struc_spawn", "bw_struc_tele_entrance", "bw_struc_tele_exit", "prop_door_rotating", "bw_fake_door", "prop_dynamic", "func_" } -- removed "prop_physics" "prop_physics_multiplayer"
     cfg["pp_restrict_toolgun"]     = { "bw_gen_", "bw_mp_", "bw_item_", "bw_money", "bw_struc_", "m9k_", "prop_door_rotating", "bw_fake_door", "prop_dynamic",                 "prop_physics_multiplayer", "func_" }
     cfg["pp_nofreeze"]             = { "bw_item_", "m9k_", "prop_door_rotating", "bw_fake_door", "prop_dynamic",                 "prop_physics_multiplayer", "func_" }
     cfg["pp_admintools"]           = { "duplicator", "motor", "balloon", "dynamite", "emitter", "hoverball", "thruster", "wheel", "keypad_willox_wire", "trails", "shareprops", "paint", "relpostool",
