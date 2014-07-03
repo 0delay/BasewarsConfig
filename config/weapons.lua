@@ -761,6 +761,7 @@ weapon["m9k_1887winchester"] = {
     hint = "",
     price = 7000,
     order = 1,
+    upg={3,3,0,0,2,3,0,0},
     model = "models/weapons/w_winchester_1887.mdl"
 }
 weapon["m9k_1897winchester"] = {
@@ -770,6 +771,7 @@ weapon["m9k_1897winchester"] = {
     hint = "",
     price = 7000,
     order = 2,
+    upg={3,3,0,0,2,3,0,0},
     model = "models/weapons/w_winchester_1897_trench.mdl"
 }
 weapon["m9k_browningauto5"] = {
@@ -779,6 +781,7 @@ weapon["m9k_browningauto5"] = {
     hint = "",
     price = 7000,
     order = 3,
+    upg={3,3,0,0,2,3,0,0},
     model = "models/weapons/w_browning_auto.mdl"
 }
 weapon["m9k_dbarrel"] = {
@@ -788,6 +791,7 @@ weapon["m9k_dbarrel"] = {
     hint = "",
     price = 7000,
     order = 4,
+    upg={3,2,0,0,1,3,0,3},
     model = "models/weapons/w_double_barrel_shotgun.mdl"
 }
 weapon["m9k_ithacam37"] = {
@@ -797,6 +801,7 @@ weapon["m9k_ithacam37"] = {
     hint = "",
     price = 7000,
     order = 5,
+    upg={3,2,0,0,2,3,0,0},
     model = "models/weapons/w_ithaca_m37.mdl"
 }
 weapon["m9k_jackhammer"] = {
@@ -806,6 +811,7 @@ weapon["m9k_jackhammer"] = {
     hint = "",
     price = 7000,
     order = 6,
+    upg={3,2,0,0,2,3,0,3},
     model = "models/weapons/w_pancor_jackhammer.mdl"
 }
 weapon["m9k_m3"] = {
@@ -815,6 +821,7 @@ weapon["m9k_m3"] = {
     hint = "",
     price = 7000,
     order = 7,
+    upg={3,2,0,0,2,3,0,3},
     model = "models/weapons/w_benelli_m3.mdl"
 }
 weapon["m9k_mossberg590"] = {
@@ -824,6 +831,7 @@ weapon["m9k_mossberg590"] = {
     hint = "",
     price = 7000,
     order = 8,
+    upg={3,2,0,0,2,3,0,3},
     model = "models/weapons/w_mossberg_590.mdl"
 }
 weapon["m9k_remington870"] = {
@@ -833,6 +841,7 @@ weapon["m9k_remington870"] = {
     hint = "",
     price = 7000,
     order = 9,
+    upg={3,2,0,0,2,3,0,3},
     model = "models/weapons/w_remington_870_tact.mdl"
 }
 weapon["m9k_spas12"] = {
@@ -851,6 +860,7 @@ weapon["m9k_striker12"] = {
     hint = "",
     price = 15000,
     order = 11,
+    upg={3,2,0,0,1,3,0,3},
     model = "models/weapons/w_striker_12g.mdl"
 }
 weapon["m9k_usas"] = {
