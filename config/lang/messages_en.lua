@@ -109,6 +109,7 @@ lang.team_menu_rules                   = "Create your team here.\nPlease follow 
 lang.ally_add                          = "Allyed: "
 lang.ally_rem                          = "Removed: "
 
+lang.raid_rq_target                    = "You can't scan yourself!"
 lang.raid_rq_newplayer                 = { "You can't raid ", " after joining!" }
 lang.raid_rq_team                      = "You can't raid without a team :)"
 lang.raid_rq_radar                     = "You need a scan radar first!"
