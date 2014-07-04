@@ -21,6 +21,9 @@ xp = {}
     
     cfg["wep_upg_cost"]               = 1/4
     
+    -- Vehicle types usend in the basewars store
+    cfg["vehicle_types"]              = { "Vehicles", "SCarVehicles" }
+    
     
     cfg["struc_levelhp"]              = 50
     cfg["struc_extraheal"]            = 20         -- extra heal ammount from autorepairs
