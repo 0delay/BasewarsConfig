@@ -33,6 +33,7 @@ hints["bw_shell_mine"]			= "Press e to toggle on and off\n\nDamage: 100 - 170\nR
         color = Color( 127,255,0, 255 )
         level = 1
         vip = true
+        admin = true
         loot = { c = 1, d = 1, rep = 1, m = 10, rp = 1 }
     
     Loot table explanation:
