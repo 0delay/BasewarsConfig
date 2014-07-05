@@ -90,7 +90,8 @@ BW.ShopVehicle("Bus", {
     model = "models/sligwolf/bus/bus.mdl",
     price = 10000,
     hint = "A bus",
-    order = 30
+    order = 30,
+    admin = true 
 })
 BW.ShopVehicle("Bendibus", {
     ent = "sw_bendibus",
@@ -98,7 +99,8 @@ BW.ShopVehicle("Bendibus", {
     model = "models/sligwolf/bus_bendi/bus_front.mdl",
     price = 25000,
     hint = "Bendibus",
-    order = 31
+    order = 31,
+    admin = true
 })
 
 -- SCARS example
