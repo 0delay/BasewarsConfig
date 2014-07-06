@@ -233,6 +233,7 @@ BW.ShopWeapon("bizonp19", {
     hint = "",
     price = 10000,
     order = 1,
+    upg={3,3,2,0,3,3,4,3},
     model = "models/weapons/w_pp19_bizon.mdl"
 })
 BW.ShopWeapon("honeybadger", {
@@ -241,6 +242,7 @@ BW.ShopWeapon("honeybadger", {
     hint = "",
     price = 5000,
     order = 2,
+    upg={4,2,3,0,3,3,3,4},
     model = "models/weapons/w_aac_honeybadger.mdl"
 })
 BW.ShopWeapon("kac_pdw", {
@@ -249,6 +251,7 @@ BW.ShopWeapon("kac_pdw", {
     hint = "",
     price = 5000,
     order = 3,
+    upg={4,2,3,0,3,3,0,0},
     model = "models/weapons/w_kac_pdw.mdl"
 })
 BW.ShopWeapon("magpulpdr", {
@@ -257,6 +260,7 @@ BW.ShopWeapon("magpulpdr", {
     hint = "",
     price = 6000,
     order = 4,
+    upg={4,3,3,0,3,3,3,3},
     model = "models/weapons/w_magpul_pdr.mdl"
 })
 BW.ShopWeapon("MP5", {
@@ -265,6 +269,7 @@ BW.ShopWeapon("MP5", {
     hint = "",
     price = 5000,
     order = 5,
+    upg={4,3,0,0,3,3,3,3},
     model = "models/weapons/w_hk_mp5.mdl"
 })
 BW.ShopWeapon("MP5 sd", {
@@ -273,6 +278,7 @@ BW.ShopWeapon("MP5 sd", {
     hint = "",
     price = 6500,
     order = 6,
+    upg={4,3,0,0,3,3,3,3},
     model = "models/weapons/w_hk_mp5sd.mdl"
 })
 BW.ShopWeapon("MP7", {
@@ -281,6 +287,7 @@ BW.ShopWeapon("MP7", {
     hint = "",
     price = 5000,
     order = 7,
+    upg={4,3,0,0,3,3,3,3},
     model = "models/weapons/w_mp7_silenced.mdl"
 })
 BW.ShopWeapon("MP9", {
@@ -289,6 +296,7 @@ BW.ShopWeapon("MP9", {
     hint = "",
     price = 5000,
     order = 8,
+    upg={4,4,0,0,3,3,3,3},
     model = "models/weapons/w_brugger_thomet_mp9.mdl"
 })
 BW.ShopWeapon("P90", {
@@ -297,6 +305,7 @@ BW.ShopWeapon("P90", {
     hint = "",
     price = 10000,
     order = 9,
+    upg={4,4,0,0,2,3,3,3},
     model = "models/weapons/w_fn_p90.mdl"
 })
 BW.ShopWeapon("Sten", {
@@ -305,6 +314,7 @@ BW.ShopWeapon("Sten", {
     hint = "",
     price = 7500,
     order = 10,
+    upg={4,4,0,0,3,3,3,3},
     model = "models/weapons/w_sten.mdl"
 })
 BW.ShopWeapon("Tec9", {
@@ -313,6 +323,7 @@ BW.ShopWeapon("Tec9", {
     hint = "",
     price = 3500,
     order = 11,
+    upg={4,4,0,0,3,3,3,3},
     model = "models/weapons/w_intratec_tec9.mdl"
 })
 BW.ShopWeapon("Thompson", {
@@ -321,6 +332,7 @@ BW.ShopWeapon("Thompson", {
     hint = "",
     price = 25000,
     order = 12,
+    upg={4,2,0,0,0,3,3,3},
     model = "models/weapons/w_tommy_gun.mdl"
 })
 BW.ShopWeapon("ump45", {
@@ -329,6 +341,7 @@ BW.ShopWeapon("ump45", {
     hint = "",
     price = 5000,
     order = 13,
+    upg={4,4,0,0,4,3,3,3},
     model = "models/weapons/w_hk_ump45.mdl"
 })
 BW.ShopWeapon("USC", {
@@ -337,6 +350,7 @@ BW.ShopWeapon("USC", {
     hint = "",
     price = 7500,
     order = 14,
+    upg={4,4,0,0,3,3,3,3},
     model = "models/weapons/w_hk_usc.mdl"
 })
 BW.ShopWeapon("UZI", {
@@ -345,6 +359,7 @@ BW.ShopWeapon("UZI", {
     hint = "",
     price = 5000,
     order = 15,
+    upg={4,4,0,0,3,3,3,3},
     model = "models/weapons/w_uzi_imi.mdl"
 })
 BW.ShopWeapon("Vector", {
@@ -353,6 +368,7 @@ BW.ShopWeapon("Vector", {
     hint = "",
     price = 5000,
     order = 16,
+    upg={4,4,0,0,3,3,3,3},
     model = "models/weapons/w_kriss_vector.mdl"
 })
 /*#################################################
