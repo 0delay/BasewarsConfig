@@ -89,7 +89,7 @@ BW.ShopWeapon("Colt 1911", {
     upg={5,25,20,0,10,0,10,0},
     model = "models/weapons/s_dmgf_co1911.mdl"
 })
-BW.ShopWeapon("coltpython", {
+BW.ShopWeapon("Coltpython", {
     cat = "Weapon - Pistols",
     ent = "m9k_coltpython",
     hint = "",
@@ -152,7 +152,7 @@ BW.ShopWeapon("M92", {
     upg={5,12,0,0,3,0,0,0},
     model = "models/weapons/w_beretta_m92.mdl"
 })
-BW.ShopWeapon("model3russian", {
+BW.ShopWeapon("Russian mod.13", {
     cat = "Weapon - Pistols",
     ent = "m9k_model3russian",
     hint = "",
@@ -161,7 +161,7 @@ BW.ShopWeapon("model3russian", {
     upg={5,10,0,0,10,0,5,0},
     model = "models/weapons/w_model_3_rus.mdl"
 })
-BW.ShopWeapon("model500", {
+BW.ShopWeapon("Model 500", {
     cat = "Weapon - Pistols",
     ent = "m9k_model500",
     hint = "",
@@ -170,7 +170,7 @@ BW.ShopWeapon("model500", {
     upg={5,10,0,0,7,0,5,0},
     model = "models/weapons/w_sw_model_500.mdl"
 })
-BW.ShopWeapon("model627", {
+BW.ShopWeapon("model 627", {
     cat = "Weapon - Pistols",
     ent = "m9k_model627",
     hint = "",
@@ -179,7 +179,7 @@ BW.ShopWeapon("model627", {
     upg={5,10,0,0,10,0,5,0},
     model = "models/weapons/w_sw_model_627.mdl"
 })
-BW.ShopWeapon("ragingbull", {
+BW.ShopWeapon("Ragingbull", {
     cat = "Weapon - Pistols",
     ent = "m9k_ragingbull",
     hint = "",
@@ -188,7 +188,7 @@ BW.ShopWeapon("ragingbull", {
     upg={5,10,0,0,10,0,5,0},
     model = "models/weapons/w_taurus_raging_bull.mdl"
 })
-BW.ShopWeapon("remington1858", {
+BW.ShopWeapon("Remington mod.1858", {
     cat = "Weapon - Pistols",
     ent = "m9k_remington1858",
     hint = "",
@@ -227,7 +227,7 @@ BW.ShopWeapon("USP", {
 /*#################################################
 ###     SMGs
 #################################################*/
-BW.ShopWeapon("bizonp19", {
+BW.ShopWeapon("Bizon p19", {
     cat = "Weapon - SMGs",
     ent = "m9k_bizonp19",
     hint = "",
@@ -236,7 +236,7 @@ BW.ShopWeapon("bizonp19", {
     upg={3,3,2,0,3,3,4,3},
     model = "models/weapons/w_pp19_bizon.mdl"
 })
-BW.ShopWeapon("honeybadger", {
+BW.ShopWeapon("Honeybadger", {
     cat = "Weapon - SMGs",
     ent = "m9k_honeybadger",
     hint = "",
@@ -245,7 +245,7 @@ BW.ShopWeapon("honeybadger", {
     upg={4,2,3,0,3,3,3,4},
     model = "models/weapons/w_aac_honeybadger.mdl"
 })
-BW.ShopWeapon("kac_pdw", {
+BW.ShopWeapon("Kac_pdw", {
     cat = "Weapon - SMGs",
     ent = "m9k_kac_pdw",
     hint = "",
@@ -254,7 +254,7 @@ BW.ShopWeapon("kac_pdw", {
     upg={4,2,3,0,3,3,0,0},
     model = "models/weapons/w_kac_pdw.mdl"
 })
-BW.ShopWeapon("magpulpdr", {
+BW.ShopWeapon("Magpul pdr", {
     cat = "Weapon - SMGs",
     ent = "m9k_magpulpdr",
     hint = "",
@@ -335,7 +335,7 @@ BW.ShopWeapon("Thompson", {
     upg={4,2,0,0,0,3,3,3},
     model = "models/weapons/w_tommy_gun.mdl"
 })
-BW.ShopWeapon("ump45", {
+BW.ShopWeapon("UMP45", {
     cat = "Weapon - SMGs",
     ent = "m9k_ump45",
     hint = "",
@@ -374,7 +374,7 @@ BW.ShopWeapon("Vector", {
 /*#################################################
 ###     Rifles
 #################################################*/
-BW.ShopWeapon("winchester73", {
+BW.ShopWeapon("Winchester mod.73", {
     cat = "Weapon - Rifles",
     ent = "m9k_winchester73",
     hint = "",
@@ -692,7 +692,7 @@ BW.ShopWeapon("Dagunov SVU", {
 /*#################################################
 ###     Shotguns
 #################################################*/
-BW.ShopWeapon("1887winchester", {
+BW.ShopWeapon("Winchester mod.1887", {
     cat = "Weapon - Shotguns",
     ent = "m9k_1887winchester",
     hint = "",
@@ -701,7 +701,7 @@ BW.ShopWeapon("1887winchester", {
     upg={3,3,0,0,2,3,0,0},
     model = "models/weapons/w_winchester_1887.mdl"
 })
-BW.ShopWeapon("1897winchester", {
+BW.ShopWeapon("Winchester mod.1897", {
     cat = "Weapon - Shotguns",
     ent = "m9k_1897winchester",
     hint = "",
@@ -710,7 +710,7 @@ BW.ShopWeapon("1897winchester", {
     upg={3,3,0,0,2,3,0,0},
     model = "models/weapons/w_winchester_1897_trench.mdl"
 })
-BW.ShopWeapon("browningauto5", {
+BW.ShopWeapon("Browningauto 5", {
     cat = "Weapon - Shotguns",
     ent = "m9k_browningauto5",
     hint = "",
@@ -728,7 +728,7 @@ BW.ShopWeapon("dbarrel", {
     upg={3,2,0,0,1,3,0,3},
     model = "models/weapons/w_double_barrel_shotgun.mdl"
 })
-BW.ShopWeapon("ithacam37", {
+BW.ShopWeapon("Ithacam 37", {
     cat = "Weapon - Shotguns",
     ent = "m9k_ithacam37",
     hint = "",
@@ -764,7 +764,7 @@ BW.ShopWeapon("mossberg590", {
     upg={3,2,0,0,2,3,0,3},
     model = "models/weapons/w_mossberg_590.mdl"
 })
-BW.ShopWeapon("remington870", {
+BW.ShopWeapon("Remington mod.870", {
     cat = "Weapon - Shotguns",
     ent = "m9k_remington870",
     hint = "",
@@ -773,7 +773,7 @@ BW.ShopWeapon("remington870", {
     upg={3,2,0,0,2,3,0,3},
     model = "models/weapons/w_remington_870_tact.mdl"
 })
-BW.ShopWeapon("spas12", {
+BW.ShopWeapon("Spas 12", {
     cat = "Weapon - Shotguns",
     ent = "m9k_spas12",
     hint = "",
@@ -781,7 +781,7 @@ BW.ShopWeapon("spas12", {
     order = 10,
     model = "models/weapons/w_spas_12.mdl"
 })
-BW.ShopWeapon("striker12", {
+BW.ShopWeapon("Striker 12", {
     cat = "Weapon - Shotguns",
     ent = "m9k_striker12",
     hint = "",
@@ -790,7 +790,7 @@ BW.ShopWeapon("striker12", {
     upg={3,2,0,0,1,3,0,3},
     model = "models/weapons/w_striker_12g.mdl"
 })
-BW.ShopWeapon("usas", {
+BW.ShopWeapon("Usas", {
     cat = "Weapon - Shotguns",
     ent = "m9k_usas",
     hint = "",
