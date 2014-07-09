@@ -152,7 +152,7 @@ BW.ShopWeapon("M92", {
     upg={5,12,0,0,3,0,0,0},
     model = "models/weapons/w_beretta_m92.mdl"
 })
-BW.ShopWeapon("Russian mod.13", {
+BW.ShopWeapon("Russian mod.3", {
     cat = "Weapon - Pistols",
     ent = "m9k_model3russian",
     hint = "",
