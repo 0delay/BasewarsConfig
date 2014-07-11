@@ -110,6 +110,7 @@ lang.team_menu_rules                   = "Create your team here.\nPlease follow 
 lang.ally_add                          = "Allyed: "
 lang.ally_rem                          = "Removed: "
 
+lang.raid_disabled                     = "You can't raid now!"
 lang.raid_rq_target                    = "You can't scan yourself!"
 lang.raid_rq_newplayer                 = { "You can't raid ", " after joining!" }
 lang.raid_rq_team                      = "You can't raid without a team :)"

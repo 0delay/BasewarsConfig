@@ -46,10 +46,8 @@ cfg = {}
     cfg["door_lock_types"]            = { "prop_door_rotating", "func_door", "func_door_rotating", "func_button" }
     
     -- Raid settings
-    cfg["raid_ontime"]                = 10
     cfg["raid_minstruc"]              = "bw_mp_supercharged"
-    cfg["raid_time"]                  = 60
-    cfg["raid_cooldown"]              = 20
+    cfg["raid_printerprefix"]         = "bw_mp_"
     cfg["raid_scanblocker_maxtime"]   = 60*20    
     cfg["radar_scans"]                = 10
     cfg["radar_cooldown"]             = 10,20
