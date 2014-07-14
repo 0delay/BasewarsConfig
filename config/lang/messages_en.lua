@@ -110,6 +110,7 @@ lang.team_menu_rules                   = "Create your team here.\nPlease follow 
 lang.ally_add                          = "Allyed: "
 lang.ally_rem                          = "Removed: "
 
+lang.raid_busy                         = "You can't do this during a raid!"
 lang.raid_disabled                     = "You can't raid now!"
 lang.raid_rq_target                    = "You can't scan yourself!"
 lang.raid_rq_newplayer                 = { "You can't raid ", " after joining!" }
@@ -119,9 +120,12 @@ lang.raid_rq_power                     = "Your radar needs Power to Scan!"
 lang.raid_rq_scans                     = "Your radar needs Scans!"
 lang.raid_rq_printer                   = { "You need a ", " to be allowed to raid!" }
 lang.raid_rq_printer2                  = { "Players doesn't have a ", "!" }
+lang.raid_scan                         = "SCAN @ "
+lang.raid_getscan                      = "Somebody scanned you!"
 lang.raid_rescan                       = "RESCAN!"
 lang.raid_scanblocker                  = "SCANBLOCKER!"
 lang.raid_counterscan                  = "COUNTERSCAN!"
+lang.raid_otherraid                    = "You are in another raid!"
 lang.raid_notinraid                    = "You are not in this raid!"
 lang.raid_lol                          = "LOOOOOOOOL"
 lang.raid_rq_newplayer2                = "You can't raid new players!"
@@ -133,6 +137,8 @@ lang.raid_lost                         = "You have lost the raid!"
 lang.raid_lastlife_player              = "You are now on last life mode!"
 lang.raid_lastlife_target              = "Enemy has last life!"
 lang.raid_protover                     = "Raid protection over now!"
+lang.raid_abort                        = "Raid canceled!"
+lang.raid_nocancel                     = "No raids to cancel."
 
 lang.indev                             = "This function is in development!"
 

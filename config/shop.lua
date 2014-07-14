@@ -11,7 +11,7 @@ hints["bw_struc_spawn"] 	   	= "The spawnpoint will make you respawn on top of i
 hints["bw_struc_radar"] 		= "The radar will makes you able to scan other people"
 hints["bw_struc_supplytable"] 	= "The radar will makes you able to scan other people"
 hints["bw_struc_moneyvault"] 	= "The money vault will store your money"
-hints["bw_struc_autorepair"] 	= "The repair dispenser will repair other Structures"
+hints["bw_struc_autorepair"] 	= "Repairs other Structures"
 
 hints["bw_gen_hobo"] 			= "HP: 100  \nWatts: 20    \nRange: 250"
 hints["bw_gen_normal"] 		    = "HP: 250  \nWatts: 100   \nRange: 350"

@@ -65,6 +65,7 @@ cfg = {}
     cfg["dmg_blast"]                  = 0.1
     -- Explosion damage range
     cfg["dmg_blastrange"]             = 40
+    cfg["dmg_ignore"]                 = { "m9k_nervegasnade", "m9k_mad_c4", "m9k_launched_m79", "m9k_launched_ex41", "m9k_released_poison" }
     
     -- Ammo types & price
     ------------------------------------------------------
@@ -76,6 +77,7 @@ cfg = {}
     -- 
     --    cfg["ammo_types"]["ammotypehere"] = { amount, price, dispensercost, damagescale }
     cfg["ammo_types"]={} 
+    cfg["ammo_types"]["default"]                  = { 1, 150  , 5 }    -- Default ammo if no other found
     cfg["ammo_types"]["pistol"]                   = { 25, 75  , 2 , 0 }      -- Pistol
     cfg["ammo_types"]["357"]                      = { 25, 100 , 2 , 0 }      -- 357
     cfg["ammo_types"]["smg1"]                     = { 50, 250 , 4 , 0 }      -- SMG
@@ -95,6 +97,7 @@ cfg = {}
     cfg["ammo_types"]["StriderMinigun"]           = { 50, 350 , 6 , 0 }      -- 
     cfg["ammo_types"]["XBowBolt"]                 = { 5,  180 , 5 , 0 }      -- 
     cfg["ammo_types"]["slam"]                     = { 50, 300 , 8 , 0 }      -- 
+    cfg["ammo_types"]["7.62x39mm"]                = { 50, 300 , 8 , 0 }      -- FAS Rifles
     
     -- Prop protection
     cfg["pp_dctime"]               = 60 * 10
