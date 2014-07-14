@@ -1,30 +1,4 @@
 /*#################################################
-###     Weapon config file
-#################################################*/
-    
-    -- Upgrade system info:    upg={5,10,0,0,10,0,0,0}
-    -- First value = max upgrades on this weapon
-    -- Extra Values per level in % (+10%Damage/...)
-    -- Damage,RPM,NumShots,ClipSize,Spread,IronAccuracy,Recoil
-    
-    -- Dont upgrade admin weapons lol
-        
-    -- New Examples
-    /*
-    BW.ShopWeapon("M60", {
-        ent = "m9k_m60",
-        cat = "Weapon - Heavy",
-        hint = "OMFG it's THE M60!",
-        price = 17000,
-        order = 3,
-        upg={5,10,5,0,10,0,5,0},
-        model = "models/weapons/w_m60_machine_gun.mdl"
-    })
-    */
-    
-    -- Everything between   /*   and   */   is a comment and will not be executed!
-
-/*#################################################
 ###     Melee weapons
 #################################################*/
 /*

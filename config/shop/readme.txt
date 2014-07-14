@@ -14,7 +14,6 @@ BW.ShopStruc    -- Structures tab
 BW.ShopPrinter  -- Printer tab
 BW.ShopVehicle  -- Vehicle tab
 
-
 -- Shop entry values
     Needed values:
         Entityname                           --> BW.Shop...("A fancy new entity"
@@ -32,10 +31,19 @@ BW.ShopVehicle  -- Vehicle tab
         vip = true
         admin = true
         loot = { c = 1, d = 1, rep = 1, m = 10, rp = 1 }
+        upg={5,10,5,0,10,0,5,0}
     
     Loot table explanation:
         c -> create xp | d -> destroy xp | r -> repair xp | m -> money loot | rp -> raidpoint loot
         loot = { c = 1, d = 1, rep = 1, m = 10, rp = 1 }
+        
+    Weapon upgrade tables:
+        Upgrade system info:    upg={5,10,0,0,10,0,0,0}
+        First value = max upgrades on this weapon
+        Extra Values per level in % (+10%Damage/...)
+        Damage,RPM,NumShots,ClipSize,Spread,IronAccuracy,Recoil
+    
+        ! Dont upgrade admin weapons, they will error like shit lol !
 
 -- Some example shop entries
 
