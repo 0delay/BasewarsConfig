@@ -103,6 +103,18 @@ BW.ShopVehicle("Bendibus", {
     admin = true
 })
 
+-- TDM example
+BW.ShopVehicle("Audi R8", {
+    ent = "audir8tdm",
+    cat = "TDM Cars",
+    model = "models/tdmcars/audir8.mdl",
+    price = 215,
+    hint = "TDM Cars",
+    order = 50
+    --vip = true,
+    --admin = true
+})
+
 -- SCARS example
 BW.ShopVehicle("Akuma", {
     ent = "sent_sakarias_car_akuma",

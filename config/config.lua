@@ -8,7 +8,11 @@ cfg = {}
     cfg.cur                           = "$"
     cfg.team_size                     = 5
     cfg.start_money                   = 750
+    cfg.start_health                  = 100
+    cfg.walkspeed                     = 300
+    cfg.runspeed                      = 400
     cfg.hud_tooltiprange              = 700
+    cfg.antispam                      = 0.75   -- Antispam time for the shop
     
     -- Prop & structure upgrade system
     --cfg["prop_limit"]                 = 50
@@ -58,6 +62,7 @@ cfg = {}
     
     -- Weapons, damage and ammotypes
     cfg["wep_upg_cost"]               = 1/4
+    cfg["weapons_loadout"]            = { "weapon_physcannon", "weapon_physgun", "weapon_fists", "bw_keys", "gmod_tool" }
     cfg["weapons_nodrop"]             = { "gmod_tool", "gmod_camera", "weapon_physcannon", "weapon_physgun", "bw_keys", "weapon_fists" }
     
     -- Global damage scale ( 1 = 100% )
