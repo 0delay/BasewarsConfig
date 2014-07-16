@@ -16,7 +16,8 @@ BW.ShopStruc("Spawn Point", {
     hint = "The spawnpoint will make you respawn on top of it",
     limit = 2,
     price = 500,
-    model = "models/props_trainstation/trainstation_clock001.mdl"
+    model = "models/props_trainstation/trainstation_clock001.mdl",
+    loot = { c=0, d=1, rep=0, m=300, rp=0 }
 })
 BW.ShopStruc("Radar", {
     cat = "Structures - Basic",
@@ -46,7 +47,7 @@ BW.ShopStruc("Money Vault", {
     price = 1500,
     order = 4,
     model = "models/props_lab/powerbox01a.mdl",
-    loot = { c = 5, d = 1, rep = 0, m = 150, rp = 0 }
+    loot = { c=5, d=1, rep=0, m=150, rp=0 }
 })
 BW.ShopStruc("Auto Repair", {
     cat = "Structures - Defense",

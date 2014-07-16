@@ -6,7 +6,8 @@ BW.ShopPrinter("The Hobo", {
     limit=1,
     level=0,
     model = "models/props_lab/reciever01a.mdl", mat="models/shiny",
-    color=Color( 205,133,63, 255 )
+    color=Color( 205,133,63, 255 ),
+    loot = { c=0, d=1, rep=0, m=0, rp=0 }
 })
 BW.ShopPrinter("Improved", {
     ent = "bw_mp_improved",
@@ -16,7 +17,8 @@ BW.ShopPrinter("Improved", {
     limit=2,
     level=0,
     model = "models/props_lab/reciever01a.mdl", mat="models/shiny",
-    color=Color( 222,184,135, 255 )
+    color=Color( 222,184,135, 255 ),
+    loot = { c=0, d=1, rep=0, m=300, rp=0 }
 })
 BW.ShopPrinter("Overclocked", {
     ent = "bw_mp_overclocked",
@@ -27,7 +29,8 @@ BW.ShopPrinter("Overclocked", {
     level=0,
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
-    color=Color( 255,228,196, 255 )
+    color=Color( 255,228,196, 255 ),
+    loot = { c=0, d=1, rep=0, m=1000, rp=0 }
 })
 BW.ShopPrinter("Supercharged", {
     ent = "bw_mp_supercharged",
@@ -38,7 +41,8 @@ BW.ShopPrinter("Supercharged", {
     level=0,
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
-    color=Color( 189,183,107, 255 )
+    color=Color( 189,183,107, 255 ),
+    loot = { c=0, d=1, rep=0, m=3000, rp=0 }
 })
 BW.ShopPrinter("Bronze", {
     ent = "bw_mp_bronze",
@@ -49,7 +53,8 @@ BW.ShopPrinter("Bronze", {
     level=0,
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
-    color=Color( 184,134,11, 255 )
+    color=Color( 184,134,11, 255 ),
+    loot = { c=0, d=1, rep=0, m=8000, rp=0 }
 })
 BW.ShopPrinter("Silver", {
     ent = "bw_mp_silver",
@@ -60,7 +65,8 @@ BW.ShopPrinter("Silver", {
     level=0,
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
-    color=Color( 192,192,192, 255 )
+    color=Color( 192,192,192, 255 ),
+    loot = { c=0, d=1, rep=0, m=30000, rp=0 }
 })
 BW.ShopPrinter("Gold", {
     ent = "bw_mp_gold",
@@ -71,7 +77,8 @@ BW.ShopPrinter("Gold", {
     level=0,
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
-    color=Color( 255,215,0, 255 )
+    color=Color( 255,215,0, 255 ),
+    loot = { c=0, d=1, rep=0, m=80000, rp=0 }
 })
 BW.ShopPrinter("Platin", {
     ent = "bw_mp_platin",
@@ -82,7 +89,8 @@ BW.ShopPrinter("Platin", {
     level=2,
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
-    color=Color( 127,255,212, 255 )
+    color=Color( 127,255,212, 255 ),
+    loot = { c=0, d=1, rep=0, m=225000, rp=0 }
 })
 BW.ShopPrinter("Diamond", {
     ent = "bw_mp_diamond",
@@ -93,7 +101,8 @@ BW.ShopPrinter("Diamond", {
     level=2,
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
-    color=Color( 64,224,208, 255 )
+    color=Color( 64,224,208, 255 ),
+    loot = { c=0, d=1, rep=0, m=750000, rp=0 }
 })
 BW.ShopPrinter("Nuclear", {
     ent = "bw_mp_nuclear",
@@ -104,7 +113,8 @@ BW.ShopPrinter("Nuclear", {
     level=3,
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
-    color=Color( 255,0,0, 50 )
+    color=Color( 255,0,0, 50 ),
+    loot = { c=0, d=1, rep=0, m=2000000, rp=0 }
 })
 BW.ShopPrinter("Darkmatter", {
     ent = "bw_mp_darkmatter",
@@ -115,7 +125,8 @@ BW.ShopPrinter("Darkmatter", {
     level=5,
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
-    color=Color( 0,0,0, 50 )
+    color=Color( 0,0,0, 50 ),
+    loot = { c=0, d=1, rep=0, m=3000000, rp=0 }
 })
 -- VIP printer
 BW.ShopPrinter("Laser", {
@@ -128,7 +139,8 @@ BW.ShopPrinter("Laser", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 139,0,0, 255 ),
-    vip = true
+    vip = true,
+    loot = { c=0, d=1, rep=0, m=1000, rp=0 }
 })
 BW.ShopPrinter("Ruby", {
     ent = "bw_mp_ruby",
@@ -140,7 +152,8 @@ BW.ShopPrinter("Ruby", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 255,69,0, 255 ),
-    vip = true
+    vip = true,
+    loot = { c=0, d=1, rep=0, m=8000, rp=0 }
 })
 BW.ShopPrinter("Emerald", {
     ent = "bw_mp_emerald",
@@ -152,7 +165,8 @@ BW.ShopPrinter("Emerald", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 127,255,0, 255 ),
-    vip = true
+    vip = true,
+    loot = { c=0, d=1, rep=0, m=80000, rp=0 }
 })
 BW.ShopPrinter("Blackhole", {
     ent = "bw_mp_blackhole",
@@ -164,5 +178,6 @@ BW.ShopPrinter("Blackhole", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 0,0,0, 50 ),
-    vip = true
+    vip = true,
+    loot = { c=0, d=1, rep=0, m=750000b, rp=0 }
 })
