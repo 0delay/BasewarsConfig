@@ -22,9 +22,6 @@ cfg = {}
     cfg["prop_upgrange"]              = 100
     cfg["prop_breakweld"]             = 0.08
     
-    -- Vehicle types usend in the basewars store
-    cfg["vehicle_types"]              = { "Vehicles", "SCarVehicles" }
-    
     cfg["struc_levelhp"]              = 50
     cfg["struc_extraheal"]            = 20         -- extra heal ammount from autorepairs
     cfg["struc_antiafk"]              = {60,120}   -- random afk time between values
@@ -113,6 +110,7 @@ cfg = {}
     cfg["pp_nofreeze"]             = { "bw_item_", "m9k_", "prop_door_rotating", "bw_fake_door", "prop_dynamic",                 "prop_physics_multiplayer", "func_" }
     cfg["pp_admintools"]           = { "duplicator", "motor", "balloon", "dynamite", "emitter", "hoverball", "thruster", "wheel", "keypad_willox_wire", "trails", "shareprops", "paint", "relpostool",
                                        "caraispawner", "carcheckpointspawner", "carfuel", "carhealth", "carhydraulic", "carnodespawner", "carsound", "carsuspension", "cartuning"                       }
+    cfg["pp_properties"]           = { remover = true, ignite = false, extinguish = true, keepupright = true, gravity = true, collision = true, skin = true, bodygroups = true }
     cfg["pp_blocklist"]            = {  "models/Cranes/crane_frame.mdl",
                                         "models/items/item_item_crate.mdl",
                                         "models/props/cs_militia/silo_01.mdl",

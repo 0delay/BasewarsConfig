@@ -20,6 +20,7 @@ lang.struc_vault_unlocked              = "This vault is unlocked!"
 lang.admin_only                        = "ADMIN ONLY!"
 lang.admin_money                       = { "You cheated ", " $ !" }
 lang.admin_move                        = ""
+lang.disabled                          = "Function is disabled!"
 
 
 lang.shop_death                        = "You are death!"

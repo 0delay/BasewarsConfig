@@ -179,5 +179,5 @@ BW.ShopPrinter("Blackhole", {
     mat="models/shiny",
     color=Color( 0,0,0, 50 ),
     vip = true,
-    loot = { c=0, d=1, rep=0, m=750000b, rp=0 }
+    loot = { c=0, d=1, rep=0, m=750000, rp=0 }
 })

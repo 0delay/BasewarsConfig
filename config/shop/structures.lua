@@ -65,6 +65,7 @@ BW.ShopStruc("Gun Lab", {
     limit = 1,
     hint = "",
     price = 25000,
+    rp = 1,
     order = 6,
     model = "models/props_wasteland/kitchen_counter001c.mdl",
     level = 5
@@ -75,6 +76,7 @@ BW.ShopStruc("Gun Factory", {
     limit = 1,
     hint = "",
     price = 25000,
+    rp = 1,
     order = 5,
     model = "models/props_wasteland/kitchen_fridge001a.mdl",
     level = 3
@@ -96,6 +98,7 @@ BW.ShopStruc("TeleporterEntrance", {
     limit = 1,
     hint = "",
     price = 100,
+    rp = 1,
     order = 10,
     model = "models/props_lab/teleplatform.mdl",
     level = 5
@@ -189,6 +192,7 @@ BW.ShopStruc("NuclearGen", {
     ent = "bw_gen_nuclear",
     hint = "",
     price = 50000,
+    rp = 1,
     order = 9,
     limit=2,
     level=3,
