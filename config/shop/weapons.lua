@@ -348,20 +348,14 @@ BW.ShopWeapon("Vector", {
 /*#################################################
 ###     Rifles
 #################################################*/
-BW.ShopWeapon("Winchester mod.73", {
-    cat = "Weapon - Rifles",
-    ent = "m9k_winchester73",
-    hint = "",
-    price = 15000,
-    order = 1,
-    model = "models/weapons/w_winchester_1873.mdl"
-})
+
 BW.ShopWeapon("ACR", {
     cat = "Weapon - Rifles",
     ent = "m9k_acr",
     hint = "",
     price = 7500,
-    order = 2,
+    order = 1,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_masada_acr.mdl"
 })
 BW.ShopWeapon("AK 47", {
@@ -369,7 +363,8 @@ BW.ShopWeapon("AK 47", {
     ent = "m9k_ak47",
     hint = "",
     price = 8000,
-    order = 3,
+    order = 2,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_ak47_m9k.mdl"
 })
 BW.ShopWeapon("AK 74", {
@@ -377,7 +372,8 @@ BW.ShopWeapon("AK 74", {
     ent = "m9k_ak74",
     hint = "",
     price = 9000,
-    order = 4,
+    order = 3,
+    upg = {4,3,0,0,3,5,5,5}
     model = "models/weapons/w_tct_ak47.mdl"
 })
 BW.ShopWeapon("AMD 65", {
@@ -385,7 +381,8 @@ BW.ShopWeapon("AMD 65", {
     ent = "m9k_amd65",
     hint = "",
     price = 6000,
-    order = 5,
+    order = 4,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_amd_65.mdl"
 })
 BW.ShopWeapon("AUG 3", {
@@ -393,7 +390,8 @@ BW.ShopWeapon("AUG 3", {
     ent = "m9k_auga3",
     hint = "",
     price = 7500,
-    order = 6,
+    order = 5,
+    upg = {4,4,0,0,3,5,5,5},
     model = "models/weapons/w_auga3.mdl"
 })
 BW.ShopWeapon("F2000", {
@@ -401,7 +399,8 @@ BW.ShopWeapon("F2000", {
     ent = "m9k_f2000",
     hint = "",
     price = 7500,
-    order = 7,
+    order = 6,
+    upg = {4,4,0,0,3,5,5,5},
     model = "models/weapons/w_fn_f2000.mdl"
 })
 BW.ShopWeapon("Fal", {
@@ -409,7 +408,8 @@ BW.ShopWeapon("Fal", {
     ent = "m9k_fal",
     hint = "",
     price = 6000,
-    order = 8,
+    order = 7,
+    upg = {4,3,0,0,4,5,5,5},
     model = "models/weapons/w_fn_fal.mdl"
 })
 BW.ShopWeapon("Famas", {
@@ -417,8 +417,8 @@ BW.ShopWeapon("Famas", {
     ent = "m9k_famas",
     hint = "",
     price = 7500,
-    order = 9,
-    upg={5,10,5,0,15,10,10,10},
+    order = 8,
+    upg={4,3,0,0,3,5,5,5},
     model = "models/weapons/w_tct_famas.mdl"
 })
 BW.ShopWeapon("G36", {
@@ -426,7 +426,8 @@ BW.ShopWeapon("G36", {
     ent = "m9k_g36",
     hint = "",
     price = 7500,
-    order = 10,
+    order = 9,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_hk_g36c.mdl"
 })
 BW.ShopWeapon("G3A3", {
@@ -434,7 +435,8 @@ BW.ShopWeapon("G3A3", {
     ent = "m9k_g3a3",
     hint = "",
     price = 7500,
-    order = 11,
+    order = 10,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_hk_g3.mdl"
 })
 BW.ShopWeapon("L85", {
@@ -442,7 +444,8 @@ BW.ShopWeapon("L85", {
     ent = "m9k_l85",
     hint = "",
     price = 7500,
-    order = 12,
+    order = 11,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_l85a2.mdl"
 })
 BW.ShopWeapon("M4A1", {
@@ -450,8 +453,8 @@ BW.ShopWeapon("M4A1", {
     ent = "m9k_m4a1",
     hint = "",
     price = 9000,
-    order = 13,
-    upg={4,5,3,15,25,30,0,0},
+    order = 12,
+    upg={4,5,0,0,3,5,5,5},
     model = "models/weapons/w_m4a1_iron.mdl"
 })
 BW.ShopWeapon("M14 sp", {
@@ -459,7 +462,8 @@ BW.ShopWeapon("M14 sp", {
     ent = "m9k_m14sp",
     hint = "",
     price = 10000,
-    order = 14,
+    order = 13,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_snip_m14sp.mdl"
 })
 BW.ShopWeapon("M16a4 acog", {
@@ -467,7 +471,8 @@ BW.ShopWeapon("M16a4 acog", {
     ent = "m9k_m16a4_acog",
     hint = "",
     price = 7500,
-    order = 15,
+    order = 14,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_dmg_m16ag.mdl"
 })
 BW.ShopWeapon("M416", {
@@ -475,7 +480,8 @@ BW.ShopWeapon("M416", {
     ent = "m9k_m416",
     hint = "",
     price = 7500,
-    order = 16,
+    order = 15,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_hk_416.mdl"
 })
 BW.ShopWeapon("Scar", {
@@ -483,7 +489,8 @@ BW.ShopWeapon("Scar", {
     ent = "m9k_scar",
     hint = "",
     price = 7500,
-    order = 17,
+    order = 16,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_fn_scar_h.mdl"
 })
 BW.ShopWeapon("VIK hr", {
@@ -491,7 +498,8 @@ BW.ShopWeapon("VIK hr", {
     ent = "m9k_vikhr",
     hint = "",
     price = 7500,
-    order = 18,
+    order = 17,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_dmg_vikhr.mdl"
 })
 BW.ShopWeapon("Tar 21", {
@@ -499,7 +507,8 @@ BW.ShopWeapon("Tar 21", {
     ent = "m9k_tar21",
     hint = "",
     price = 7500,
-    order = 19,
+    order = 18,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_imi_tar21.mdl"
 })
 BW.ShopWeapon("Val", {
@@ -507,7 +516,8 @@ BW.ShopWeapon("Val", {
     ent = "m9k_val",
     hint = "",
     price = 6000,
-    order = 20,
+    order = 29,
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_dmg_vally.mdl"
 })
 /*#################################################
@@ -769,10 +779,19 @@ BW.ShopWeapon("Usas", {
     ent = "m9k_usas",
     hint = "",
     price = 15000,
-    order = 12,
+    order = 13,
     model = "models/weapons/w_usas_12.mdl",
     level = 2,
     vip = true
+})
+BW.ShopWeapon("Winchester mod.73", {
+    cat = "Weapon - Rifles",
+    ent = "m9k_winchester73",
+    hint = "",
+    price = 15000,
+    order = 12,
+    upg={3,2,0,0,1,3,0,3},
+    model = "models/weapons/w_winchester_1873.mdl"
 })
 /*#################################################
 ###     Explosives
