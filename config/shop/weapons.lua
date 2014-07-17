@@ -373,7 +373,7 @@ BW.ShopWeapon("AK 74", {
     hint = "",
     price = 9000,
     order = 3,
-    upg = {4,3,0,0,3,5,5,5}
+    upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_tct_ak47.mdl"
 })
 BW.ShopWeapon("AMD 65", {
