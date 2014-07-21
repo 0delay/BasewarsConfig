@@ -7,6 +7,7 @@ cfg = {}
     cfg.lang                          = "en"
     cfg.cur                           = "$"
     cfg.team_size                     = 5
+    cfg.save_time                     = 10
     cfg.start_money                   = 750
     cfg.start_health                  = 100
     cfg.walkspeed                     = 300
@@ -44,11 +45,11 @@ cfg = {}
     cfg["door_max_count"]             = 2
     cfg["door_respawn"]               = 1 * 10
     cfg["door_dmg_scale"]             = 0.3
-    cfg["door_lock_types"]            = { "prop_door_rotating", "func_door", "func_door_rotating", "func_button" }
+    cfg["door_lock_types"]            = { "prop_door_rotating", "func_door", "func_door_rotating" }
     
     -- Raid settings
-    cfg["raid_minstruc"]              = "bw_mp_supercharged"
     cfg["raid_printerprefix"]         = "bw_mp_"
+    cfg["raid_minstruc"]              = "bw_mp_supercharged"
     cfg["raid_scanblocker_maxtime"]   = 60*20    
     cfg["radar_scans"]                = 10
     cfg["radar_cooldown"]             = 10,20
