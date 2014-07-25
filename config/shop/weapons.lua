@@ -709,7 +709,7 @@ BW.ShopWeapon("dbarrel", {
     hint = "",
     price = 15000,
     order = 4,
-    upg={3,2,0,0,0,3,0,3},
+    upg={3,2,0,0,1,3,0,3},
     model = "models/weapons/w_double_barrel_shotgun.mdl"
 })
 BW.ShopWeapon("Ithacam 37", {

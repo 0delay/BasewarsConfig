@@ -9,6 +9,8 @@ lang = {}
     
 lang.prop_spawn                        = "You spawned a prop!"
 lang.prop_block                        = "This prop is blacklisted!"
+lang.prop_block2                       = "You can't spawn this here!"
+lang.prop_block3                       = "This prop is too big!"
 lang.prop_destroyed                    = { "Your ", " was destroyed!" }
 
 lang.struc_needpower                   = "This structure needs more power!"

@@ -42,14 +42,13 @@ cfg = {}
     
     -- Door settings
     cfg["door_hp"]                    = 100
-    cfg["door_max_count"]             = 2
     cfg["door_respawn"]               = 1 * 10
     cfg["door_dmg_scale"]             = 0.3
     cfg["door_lock_types"]            = { "prop_door_rotating", "func_door", "func_door_rotating" }
     
     -- Raid settings
     cfg["raid_printerprefix"]         = "bw_mp_"
-    cfg["raid_minstruc"]              = "bw_mp_supercharged"
+    cfg["raid_minstruc"]              = "bw_mp_bronze"
     cfg["raid_scanblocker_maxtime"]   = 60*20    
     cfg["radar_scans"]                = 10
     cfg["radar_cooldown"]             = 10,20
@@ -103,15 +102,22 @@ cfg = {}
     cfg["ammo_types"]["7.62x39mm"]                = { 50, 300 , 8 , 0 }      -- FAS Rifles
     
     -- Prop protection
+    -- Autoremoval time for stuff of disconnected players
     cfg["pp_dctime"]               = 60 * 10
     cfg["pp_dmgvalid"]             = { "worldspawn", "bw_struc_", "bw_item_", "bw_base_props", "prop_door_rotating", "prop_dynamic", "prop_physics", "prop_physics_multiplayer" }
+    -- Bulletproof entites
     cfg["pp_bulletproof"]          = { "bw_base_props", "bw_money", "m9k_", "prop_door_rotating", "bw_fake_door", "prop_dynamic", "prop_physics", "prop_physics_multiplayer" }
+    -- Physgun pickup
     cfg["pp_nopickup"]             = { "bw_struc_spawn", "bw_struc_tele_entrance", "bw_struc_tele_exit", "prop_door_rotating", "bw_fake_door", "prop_dynamic", "func_" } -- removed "prop_physics" "prop_physics_multiplayer"
-    cfg["pp_restrict_toolgun"]     = { "bw_gen_", "bw_mp_", "bw_item_", "bw_money", "bw_struc_", "m9k_", "prop_door_rotating", "bw_fake_door", "prop_dynamic",                 "prop_physics_multiplayer", "func_" }
+    -- Toolgun restriction
+    cfg["pp_restrict_toolgun"]     = { "bw_gen_", "bw_mp_", "bw_item_", "bw_money", "bw_struc_", "m9k_", "prop_door_rotating", "bw_fake_door", "prop_dynamic", "func_" }
+    -- 
     cfg["pp_nofreeze"]             = { "bw_item_", "m9k_", "prop_door_rotating", "bw_fake_door", "prop_dynamic",                 "prop_physics_multiplayer", "func_" }
+    -- Admin only Stools
     cfg["pp_admintools"]           = { "duplicator", "motor", "balloon", "dynamite", "emitter", "hoverball", "thruster", "wheel", "keypad_willox_wire", "trails", "shareprops", "paint", "relpostool",
                                        "caraispawner", "carcheckpointspawner", "carfuel", "carhealth", "carhydraulic", "carnodespawner", "carsound", "carsuspension", "cartuning"                       }
     cfg["pp_properties"]           = { remover = true, ignite = false, extinguish = true, keepupright = true, gravity = true, collision = true, skin = true, bodygroups = true }
+    cfg["pp_blocksize"]            = { mass=8000, vol=2600000 }
     cfg["pp_blocklist"]            = {  "models/Cranes/crane_frame.mdl",
                                         "models/items/item_item_crate.mdl",
                                         "models/props/cs_militia/silo_01.mdl",
