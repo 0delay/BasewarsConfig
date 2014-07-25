@@ -55,6 +55,7 @@ lang.money_nodrop                      = { "You don't have ", " $ !" }
 lang.exp_get                           = { "Loot: ", "xp & ", "$" }
 lang.exp_loot1                         = "Destroyed: "
 lang.exp_loot2                         = "Loot: "
+lang.exp_repair                        = "RepairExp: "
 
 lang.printer_error                     = "Inactive: "
 lang.printer_reload                    = "Printer refreshed: "
@@ -133,6 +134,7 @@ lang.raid_notinraid                    = "You are not in this raid!"
 lang.raid_lol                          = "LOOOOOOOOL"
 lang.raid_rq_newplayer2                = "You can't raid new players!"
 lang.raid_rq_newplayer3                = "You can't raid this player now!"
+lang.raid_1stwin                       = "This was your first raid! Get extra exp: "
 lang.raid_win                          = "You have won the raid!"
 lang.raid_win2                         = "You have won the raid, player ragequit lol!"
 lang.raid_win3                         = "You have won the counterraid!"

@@ -7,7 +7,7 @@ BW.ShopStruc("Dispenser", {
     price = 1500,
     model = "models/props_lab/reciever_cart.mdl",
     hint = "The dispenser will give you HP, Armor, Ammo",
-    loot = { c = 1, d = 1, rep = 1, m = 10, rp = 1 }
+    loot = { c=0, d=1, rep=0, m=750, rp=0 }
 })
 BW.ShopStruc("Spawn Point", {
     cat = "Structures - Basic",
