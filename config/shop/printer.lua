@@ -7,7 +7,7 @@ BW.ShopPrinter("The Hobo", {
     level=0,
     model = "models/props_lab/reciever01a.mdl", mat="models/shiny",
     color=Color( 205,133,63, 255 ),
-    loot = { c=0, d=1, rep=0, m=0, rp=0 }
+    loot = { c=0, d=1, m=0, rp=0 }
 })
 BW.ShopPrinter("Improved", {
     ent = "bw_mp_improved",
@@ -18,7 +18,7 @@ BW.ShopPrinter("Improved", {
     level=0,
     model = "models/props_lab/reciever01a.mdl", mat="models/shiny",
     color=Color( 222,184,135, 255 ),
-    loot = { c=0, d=1, rep=0, m=300, rp=0 }
+    loot = { c=0, d=1, m=300, rp=0 }
 })
 BW.ShopPrinter("Overclocked", {
     ent = "bw_mp_overclocked",
@@ -30,7 +30,7 @@ BW.ShopPrinter("Overclocked", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 255,228,196, 255 ),
-    loot = { c=0, d=1, rep=0, m=1000, rp=0 }
+    loot = { c=0, d=1, m=1000, rp=0 }
 })
 BW.ShopPrinter("Supercharged", {
     ent = "bw_mp_supercharged",
@@ -42,7 +42,7 @@ BW.ShopPrinter("Supercharged", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 189,183,107, 255 ),
-    loot = { c=0, d=1, rep=0, m=3000, rp=0 }
+    loot = { c=0, d=1, m=3000, rp=0 }
 })
 BW.ShopPrinter("Bronze", {
     ent = "bw_mp_bronze",
@@ -54,7 +54,7 @@ BW.ShopPrinter("Bronze", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 184,134,11, 255 ),
-    loot = { c=0, d=1, rep=0, m=8000, rp=0 }
+    loot = { c=0, d=1, m=8000, rp=0 }
 })
 BW.ShopPrinter("Silver", {
     ent = "bw_mp_silver",
@@ -66,7 +66,7 @@ BW.ShopPrinter("Silver", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 192,192,192, 255 ),
-    loot = { c=0, d=1, rep=0, m=30000, rp=0 }
+    loot = { c=0, d=1, m=30000, rp=0 }
 })
 BW.ShopPrinter("Gold", {
     ent = "bw_mp_gold",
@@ -78,7 +78,7 @@ BW.ShopPrinter("Gold", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 255,215,0, 255 ),
-    loot = { c=0, d=1, rep=0, m=80000, rp=0 }
+    loot = { c=0, d=1, m=80000, rp=0 }
 })
 BW.ShopPrinter("Platin", {
     ent = "bw_mp_platin",
@@ -90,7 +90,7 @@ BW.ShopPrinter("Platin", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 127,255,212, 255 ),
-    loot = { c=0, d=1, rep=0, m=225000, rp=0 }
+    loot = { c=0, d=1, m=225000, rp=0 }
 })
 BW.ShopPrinter("Diamond", {
     ent = "bw_mp_diamond",
@@ -102,7 +102,7 @@ BW.ShopPrinter("Diamond", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 64,224,208, 255 ),
-    loot = { c=0, d=1, rep=0, m=750000, rp=0 }
+    loot = { c=0, d=1, m=750000, rp=0 }
 })
 BW.ShopPrinter("Nuclear", {
     ent = "bw_mp_nuclear",
@@ -114,7 +114,7 @@ BW.ShopPrinter("Nuclear", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 255,0,0, 50 ),
-    loot = { c=0, d=1, rep=0, m=2000000, rp=0 }
+    loot = { c=0, d=1, m=2000000, rp=0 }
 })
 BW.ShopPrinter("Darkmatter", {
     ent = "bw_mp_darkmatter",
@@ -126,7 +126,7 @@ BW.ShopPrinter("Darkmatter", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 0,0,0, 50 ),
-    loot = { c=0, d=1, rep=0, m=3000000, rp=0 }
+    loot = { c=0, d=1, m=3000000, rp=0 }
 })
 -- VIP printer
 BW.ShopPrinter("Laser", {
@@ -140,7 +140,7 @@ BW.ShopPrinter("Laser", {
     mat="models/shiny",
     color=Color( 139,0,0, 255 ),
     vip = true,
-    loot = { c=0, d=1, rep=0, m=1000, rp=0 }
+    loot = { c=0, d=1, m=1000, rp=0 }
 })
 BW.ShopPrinter("Ruby", {
     ent = "bw_mp_ruby",
@@ -153,7 +153,7 @@ BW.ShopPrinter("Ruby", {
     mat="models/shiny",
     color=Color( 255,69,0, 255 ),
     vip = true,
-    loot = { c=0, d=1, rep=0, m=8000, rp=0 }
+    loot = { c=0, d=1, m=8000, rp=0 }
 })
 BW.ShopPrinter("Emerald", {
     ent = "bw_mp_emerald",
@@ -166,7 +166,7 @@ BW.ShopPrinter("Emerald", {
     mat="models/shiny",
     color=Color( 127,255,0, 255 ),
     vip = true,
-    loot = { c=0, d=1, rep=0, m=80000, rp=0 }
+    loot = { c=0, d=1, m=80000, rp=0 }
 })
 BW.ShopPrinter("Blackhole", {
     ent = "bw_mp_blackhole",
@@ -179,5 +179,5 @@ BW.ShopPrinter("Blackhole", {
     mat="models/shiny",
     color=Color( 0,0,0, 50 ),
     vip = true,
-    loot = { c=0, d=1, rep=0, m=750000, rp=0 }
+    loot = { c=0, d=1, m=750000, rp=0 }
 })

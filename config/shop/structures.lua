@@ -7,7 +7,7 @@ BW.ShopStruc("Dispenser", {
     price = 1500,
     model = "models/props_lab/reciever_cart.mdl",
     hint = "The dispenser will give you HP, Armor, Ammo",
-    loot = { c=0, d=1, rep=0, m=750, rp=0 }
+    loot = { c=0, d=1, m=750, rp=0 }
 })
 BW.ShopStruc("Spawn Point", {
     cat = "Structures - Basic",
@@ -17,16 +17,17 @@ BW.ShopStruc("Spawn Point", {
     limit = 2,
     price = 500,
     model = "models/props_trainstation/trainstation_clock001.mdl",
-    loot = { c=0, d=1, rep=0, m=300, rp=0 }
+    loot = { c=0, d=1, m=250, rp=0 }
 })
 BW.ShopStruc("Radar", {
     cat = "Structures - Basic",
     ent = "bw_struc_radar",
     limit = 1,
-    hint = "The radar will makes you able to scan other people",
+    hint = "Scan and raid others",
     price = 2000,
     order = 3,
-    model = "models/props_rooftop/roof_dish001.mdl"
+    model = "models/props_rooftop/roof_dish001.mdl",
+    loot = { c=0, d=1, m=1000, rp=0 }
 })
 /*
 BW.ShopStruc("Supplytable", {
@@ -36,7 +37,8 @@ BW.ShopStruc("Supplytable", {
     hint = hints["bw_struc_supplytable"],
     price = 12000,
     order = 3,
-    model = "models/structures/table_shed.mdl"
+    model = "models/structures/table_shed.mdl",
+    loot = { c=0, d=1, m=6000, rp=0 }
 })
 */
 BW.ShopStruc("Money Vault", {
@@ -47,7 +49,7 @@ BW.ShopStruc("Money Vault", {
     price = 1500,
     order = 4,
     model = "models/props_lab/powerbox01a.mdl",
-    loot = { c=5, d=1, rep=0, m=150, rp=0 }
+    loot = { c=0, d=1, m=750, rp=0 }
 })
 BW.ShopStruc("Auto Repair", {
     cat = "Structures - Defense",
@@ -57,7 +59,8 @@ BW.ShopStruc("Auto Repair", {
     price = 15000,
     order = 5,
     model = "models/structures/ventilationduct01.mdl",
-    level = 2
+    level = 2,
+    loot = { c=0, d=1, m=7500, rp=0 }
 })
 BW.ShopStruc("Gun Lab", {
     cat = "Structures - Extra",
@@ -68,7 +71,8 @@ BW.ShopStruc("Gun Lab", {
     rp = 1,
     order = 6,
     model = "models/props_wasteland/kitchen_counter001c.mdl",
-    level = 5
+    level = 5,
+    loot = { c=0, d=1, m=12500, rp=0 }
 })
 BW.ShopStruc("Gun Factory", {
     cat = "Structures - Extra",
@@ -79,7 +83,8 @@ BW.ShopStruc("Gun Factory", {
     rp = 1,
     order = 5,
     model = "models/props_wasteland/kitchen_fridge001a.mdl",
-    level = 3
+    level = 3,
+    loot = { c=0, d=1, m=12500, rp=0 }
 })
 BW.ShopStruc("Gun Vault", {
     cat = "Structures - Extra",
@@ -90,28 +95,31 @@ BW.ShopStruc("Gun Vault", {
     order = 5,
     model = "models/props/CS_militia/footlocker01_closed.mdl",
     color=Color( 0,200,0, 255 ),
-    level = 3
+    level = 3,
+    loot = { c=0, d=1, m=5000, rp=0 }
 })
 BW.ShopStruc("TeleporterEntrance", {
     cat = "Structures - Extra",
     ent = "bw_struc_tele_entrance",
     limit = 1,
     hint = "",
-    price = 100,
+    price = 50000,
     rp = 1,
     order = 10,
     model = "models/props_lab/teleplatform.mdl",
-    level = 5
+    level = 5,
+    loot = { c=0, d=1, m=25000, rp=0 }
 })
 BW.ShopStruc("TeleporterExit", {
     cat = "Structures - Extra",
     ent = "bw_struc_tele_exit",
     limit = 1,
     hint = "",
-    price = 100,
+    price = 10000,
     order = 11,
     model = "models/props_lab/teleplatform.mdl",
-    level = 5
+    level = 5,
+    loot = { c=0, d=1, m=5000, rp=0 }
 })
 
 -- Turrets
@@ -123,7 +131,8 @@ BW.ShopStruc("SMG-Turret", {
     price = 1500,
     order = 20,
     model = "models/props_c17/TrapPropeller_Engine.mdl",
-    level = 2
+    level = 2,
+    loot = { c=0, d=1, m=750, rp=0 }
 })
 BW.ShopStruc("Sniper-Turret", {
     cat = "Structures - Defense",
@@ -133,7 +142,8 @@ BW.ShopStruc("Sniper-Turret", {
     price = 2500,
     order = 21,
     model = "models/props_c17/TrapPropeller_Engine.mdl",
-    level = 2
+    level = 2,
+    loot = { c=0, d=1, m=1250, rp=0 }
 })
 BW.ShopStruc("Rocket-Turret", {
     cat = "Structures - Defense",
@@ -143,7 +153,8 @@ BW.ShopStruc("Rocket-Turret", {
     price = 6000,
     order = 25,
     model = "models/props_c17/TrapPropeller_Engine.mdl",
-    level = 5
+    level = 5,
+    loot = { c=0, d=1, m=3000, rp=0 }
 })
 BW.ShopStruc("Laser-Turret", {
     cat = "Structures - Defense",
@@ -153,7 +164,8 @@ BW.ShopStruc("Laser-Turret", {
     price = 8000,
     order = 26,
     model = "models/props_c17/TrapPropeller_Engine.mdl",
-    level = 8
+    level = 8,
+    loot = { c=0, d=1, m=4000, rp=0 }
 })
 
 -- Generator config
@@ -165,7 +177,8 @@ BW.ShopStruc("HoboGen", {
     order = 6,
     limit=1,
     level=0,
-    model = "models/props_vehicles/generatortrailer01.mdl"
+    model = "models/props_vehicles/generatortrailer01.mdl",
+    loot = { c=0, d=1, m=0, rp=0 }
 })
 BW.ShopStruc("NormalGen", {
     cat = "Structures - Generators",
@@ -175,7 +188,8 @@ BW.ShopStruc("NormalGen", {
     order = 7,
     limit=2,
     level=0,
-    model = "models/props_vehicles/generatortrailer01.mdl"
+    model = "models/props_vehicles/generatortrailer01.mdl",
+    loot = { c=0, d=1, m=250, rp=0 }
 })
 BW.ShopStruc("SuperGen", {
     cat = "Structures - Generators",
@@ -185,7 +199,8 @@ BW.ShopStruc("SuperGen", {
     order = 8,
     limit=2,
     level=2,
-    model = "models/props_wasteland/laundry_washer003.mdl"
+    model = "models/props_wasteland/laundry_washer003.mdl",
+    loot = { c=0, d=1, m=1500, rp=0 }
 })
 BW.ShopStruc("NuclearGen", {
     cat = "Structures - Generators",
@@ -196,5 +211,6 @@ BW.ShopStruc("NuclearGen", {
     order = 9,
     limit=2,
     level=3,
-    model = "models/maxofs2d/thruster_propeller.mdl"
+    model = "models/maxofs2d/thruster_propeller.mdl",
+    loot = { c=0, d=1, m=25000, rp=0 }
 })

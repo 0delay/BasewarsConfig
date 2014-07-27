@@ -30,12 +30,12 @@ BW.ShopVehicle  -- Vehicle tab
         level = 1
         vip = true
         admin = true
-        loot = { c = 1, d = 1, rep = 1, m = 10, rp = 1 }
+        loot = { c = 1, d = 1, m = 10, rp = 1 }
         upg={5,10,5,0,10,0,5,0}
     
     Loot table explanation:
-        c -> create xp | d -> destroy xp | r -> repair xp | m -> money loot | rp -> raidpoint loot
-        loot = { c = 1, d = 1, rep = 1, m = 10, rp = 1 }
+        c -> create xp | d -> destroy xp | m -> money loot | rp -> raidpoint loot
+        loot = { c = 1, d = 1, m = 10, rp = 1 }
         
     Weapon upgrade tables:
         Upgrade system info:    upg={5,10,0,0,10,0,0,0}

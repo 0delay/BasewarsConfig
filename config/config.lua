@@ -48,7 +48,8 @@ cfg = {}
     
     -- Raid settings
     cfg["raid_printerprefix"]         = "bw_mp_"
-    cfg["raid_minstruc"]              = "bw_mp_bronze"
+    cfg["raid_minprinter"]            = "bw_mp_bronze"
+    cfg["raid_minprinters"]           = { "bw_mp_supercharged", "bw_mp_bronze", "bw_mp_silver", "bw_mp_gold", "bw_mp_platin", "bw_mp_diamond", "bw_mp_nuclear", "bw_mp_darkmatter" }
     cfg["raid_scanblocker_maxtime"]   = 60*20    
     cfg["radar_scans"]                = 10
     cfg["radar_cooldown"]             = 10,20
