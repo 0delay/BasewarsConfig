@@ -20,7 +20,8 @@ lang.struc_vault_locked                = "This vault is locked!"
 lang.struc_vault_unlocked              = "This vault is unlocked!"
 
 lang.admin_only                        = "ADMIN ONLY!"
-lang.admin_money                       = { "You cheated ", " $ !" }
+lang.sadmin_only                       = "SUPER ADMIN ONLY!"
+lang.admin_cheats                      = "You cheated "
 lang.admin_move                        = ""
 lang.disabled                          = "Function is disabled!"
 
@@ -47,15 +48,25 @@ lang.shop_weapon_got                   = { "You already got ", " !" }
 lang.shop_prop_limit                   = "Prop limit!"
 lang.shop_vehicle_limit                = "Vehicle limit!"
 
-
 lang.money_error                       = "Enter valid amount!"
+lang.money_dropmax                     = "Max value is "
 lang.money_drop                        = { "You dropped ", " $ !" }
 lang.money_nodrop                      = { "You don't have ", " $ !" }
+
+lang.kill                              = "You killed "
+lang.killed                            = "You got killed by "
+lang.killedby                          = " got killed by "
+lang.killself                          = "You committed suicide!"
+lang.suicide                           = " committed suicide!"
 
 lang.exp_get                           = { "Loot: ", "xp & ", "$" }
 lang.exp_loot1                         = "Destroyed: "
 lang.exp_loot2                         = "Loot: "
+lang.exp_loot3                         = "Kill exp: "
 lang.exp_repair                        = "RepairExp: "
+lang.exp_up                            = "Levelup! Your are now Lvl"
+lang.exp_max                           = "You reached the max level!"
+lang.exp_reset                         = "Your exp and lvl was reset!"
 
 lang.printer_error                     = "Inactive: "
 lang.printer_reload                    = "Printer refreshed: "
@@ -88,8 +99,9 @@ lang.drug_lifereg                      = "Regeneration"
 lang.radar_ready                       = { "Radar tower is ready to scan.", " scans." }
 lang.radar_full                        = { "Radar tower is fully charged at ", " charges." }
 
-
+lang.upgrade_notarget                  = "Look at a prop or structure to upgrade!"
 lang.upgrade_no                        = "You can't afford upgrade!"
+lang.upgrade_no2                       = "No valid target!"
 lang.upgrade_yes                       = "Upgraded!"
 lang.upgrade_limit                     = "Max upgrade reached!"
 

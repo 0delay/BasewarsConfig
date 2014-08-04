@@ -6,9 +6,11 @@ cfg = {}
     -- General settings
     cfg.lang                          = "en"
     cfg.cur                           = "$"
+    cfg.cur_format                    = 0
     cfg.team_size                     = 5
     cfg.save_time                     = 10
     cfg.start_money                   = 750
+    cfg.ground_money                  = 50000000
     cfg.start_health                  = 100
     cfg.walkspeed                     = 300
     cfg.runspeed                      = 400
@@ -42,7 +44,7 @@ cfg = {}
     
     -- Door settings
     cfg["door_hp"]                    = 100
-    cfg["door_respawn"]               = 1 * 10
+    cfg["door_respawn"]               = 60 * 20
     cfg["door_dmg_scale"]             = 0.3
     cfg["door_lock_types"]            = { "prop_door_rotating", "func_door", "func_door_rotating" }
     
@@ -52,7 +54,7 @@ cfg = {}
     cfg["raid_minprinters"]           = { "bw_mp_supercharged", "bw_mp_bronze", "bw_mp_silver", "bw_mp_gold", "bw_mp_platin", "bw_mp_diamond", "bw_mp_nuclear", "bw_mp_darkmatter" }
     cfg["raid_scanblocker_maxtime"]   = 60*20    
     cfg["radar_scans"]                = 10
-    cfg["radar_cooldown"]             = 10,20
+    cfg["radar_cooldown"]             = 40,240
     cfg["teleporter_range"]           = {350,800}
     
     cfg["max_dispenser"]               = 2
