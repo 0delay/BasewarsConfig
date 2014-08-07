@@ -12,6 +12,14 @@ lang.prop_block                        = "This prop is blacklisted!"
 lang.prop_block2                       = "You can't spawn this here!"
 lang.prop_block3                       = "This prop is too big!"
 lang.prop_destroyed                    = { "Your ", " was destroyed!" }
+lang.stool_noown                       = "This is not your stuff!"
+lang.stool_nouse                       = "You can't toolgun this!"
+
+lang.upgrade_notarget                  = "Look at a prop or structure to upgrade!"
+lang.upgrade_no                        = "You can't afford upgrade!"
+lang.upgrade_no2                       = "No valid target!"
+lang.upgraded                          = { "Upgraded ", " to Lvl " }
+lang.upgrade_limit                     = "Max upgrade reached!"
 
 lang.struc_needpower                   = "This structure needs more power!"
 lang.struc_notowner                    = "This is not your "
@@ -98,12 +106,6 @@ lang.drug_lifereg                      = "Regeneration"
 
 lang.radar_ready                       = { "Radar tower is ready to scan.", " scans." }
 lang.radar_full                        = { "Radar tower is fully charged at ", " charges." }
-
-lang.upgrade_notarget                  = "Look at a prop or structure to upgrade!"
-lang.upgrade_no                        = "You can't afford upgrade!"
-lang.upgrade_no2                       = "No valid target!"
-lang.upgrade_yes                       = "Upgraded!"
-lang.upgrade_limit                     = "Max upgrade reached!"
 
 lang.door_limit                        = { "You can't buy more than ", " doors!" }
 lang.door_buy                          = "You bought a door!"

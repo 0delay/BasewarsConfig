@@ -564,6 +564,7 @@ BW.ShopWeapon("M1918 bar", {
     order = 5,
     model = "models/weapons/w_m1918_bar.mdl"
 })
+/*
 BW.ShopWeapon("MiniGun", {
     ent = "m9k_minigun",
     cat = "Weapon - Heavy",
@@ -574,6 +575,7 @@ BW.ShopWeapon("MiniGun", {
     level = 5,
     admin=true
 })
+*/
 /*#################################################
 ###     Sniper rifles
 #################################################*/
@@ -956,6 +958,7 @@ BW.ShopWeapon("Milkorm-GL", {
 /*#################################################
 ###     Admin weapons
 #################################################*/
+/*
 BW.ShopWeapon("The Nyangun", {
     cat = "Admin - Weapons :D",
     ent = "weapon_nyangun",
@@ -974,7 +977,7 @@ BW.ShopWeapon("M202-RL", {
     admin = true,
     model = "models/weapons/w_rocket_launcher.mdl"
 })
-/*
+
 BW.ShopWeapon("IED", {
     cat = "Admin - Weapons :D",
     ent = "m9k_ied_detonator",
@@ -984,7 +987,7 @@ BW.ShopWeapon("IED", {
     admin = true,
     model = "models/weapons/w_camphon2.mdl"
 })
-*/
+
 BW.ShopWeapon("Orbital-Strike", {
     cat = "Admin - Weapons :D",
     ent = "m9k_orbital_strike",
@@ -1003,3 +1006,4 @@ BW.ShopWeapon("Davy-Crockett", {
     admin = true,
     model = "models/weapons/w_RL7.mdl"
 })
+*/

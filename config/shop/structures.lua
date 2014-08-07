@@ -60,7 +60,17 @@ BW.ShopStruc("Auto Repair", {
     order = 5,
     model = "models/structures/ventilationduct01.mdl",
     level = 2,
-    loot = { c=0, d=1, m=7500, rp=0 }
+    loot = { c=0, d=1, m=7500, rp=0 },
+    upg = {
+        price = 80,
+        max   = 3,
+        hp    = 20,
+        pwr   = 10,
+        vars  = {
+            RepHp   = 5,
+            Repdist = 10
+        }
+    }
 })
 BW.ShopStruc("Gun Lab", {
     cat = "Structures - Extra",
@@ -84,7 +94,18 @@ BW.ShopStruc("Gun Factory", {
     order = 5,
     model = "models/props_wasteland/kitchen_fridge001a.mdl",
     level = 3,
-    loot = { c=0, d=1, m=12500, rp=0 }
+    loot = { c=0, d=1, m=12500, rp=0 },
+    upg = {
+        price = 90,
+        max   = 3,
+        hp    = 20,
+        pwr   = 10,
+        vars  = {
+            LoadCostMin = -5,
+            LoadCostMax = -5,
+            UseCD = -5
+        }
+    }
 })
 BW.ShopStruc("Gun Vault", {
     cat = "Structures - Extra",

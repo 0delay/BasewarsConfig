@@ -42,7 +42,19 @@ BW.ShopPrinter("Supercharged", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 189,183,107, 255 ),
-    loot = { c=0, d=1, m=3000, rp=0 }
+    loot = { c=0, d=1, m=3000, rp=0 },
+    upg = {
+        price = 20,
+        max   = 2,
+        hp    = 5,
+        pwr   = 5,
+        vars  = {
+            MoneyMin =  20,
+            MoneyMax =  20,
+            TimeMin  = -5,
+            TimeMax  = -5
+        }
+    }
 })
 BW.ShopPrinter("Bronze", {
     ent = "bw_mp_bronze",
@@ -54,7 +66,19 @@ BW.ShopPrinter("Bronze", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 184,134,11, 255 ),
-    loot = { c=0, d=1, m=8000, rp=0 }
+    loot = { c=0, d=1, m=8000, rp=0 },
+    upg = {
+        price = 30,
+        max   = 2,
+        hp    = 5,
+        pwr   = 5,
+        vars  = {
+            MoneyMin =  20,
+            MoneyMax =  20,
+            TimeMin  = -5,
+            TimeMax  = -5
+        }
+    }
 })
 BW.ShopPrinter("Silver", {
     ent = "bw_mp_silver",
@@ -66,7 +90,19 @@ BW.ShopPrinter("Silver", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 192,192,192, 255 ),
-    loot = { c=0, d=1, m=30000, rp=0 }
+    loot = { c=0, d=1, m=30000, rp=0 },
+    upg = {
+        price = 40,
+        max   = 3,
+        hp    = 5,
+        pwr   = 5,
+        vars  = {
+            MoneyMin =  20,
+            MoneyMax =  20,
+            TimeMin  = -5,
+            TimeMax  = -5
+        }
+    }
 })
 BW.ShopPrinter("Gold", {
     ent = "bw_mp_gold",
@@ -78,7 +114,19 @@ BW.ShopPrinter("Gold", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 255,215,0, 255 ),
-    loot = { c=0, d=1, m=80000, rp=0 }
+    loot = { c=0, d=1, m=80000, rp=0 },
+    upg = {
+        price = 40,
+        max   = 3,
+        hp    = 5,
+        pwr   = 5,
+        vars  = {
+            MoneyMin =  20,
+            MoneyMax =  20,
+            TimeMin  = -5,
+            TimeMax  = -5
+        }
+    }
 })
 BW.ShopPrinter("Platin", {
     ent = "bw_mp_platin",
@@ -90,7 +138,19 @@ BW.ShopPrinter("Platin", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 127,255,212, 255 ),
-    loot = { c=0, d=1, m=225000, rp=0 }
+    loot = { c=0, d=1, m=225000, rp=0 },
+    upg = {
+        price = 60,
+        max   = 3,
+        hp    = 10,
+        pwr   = 10,
+        vars  = {
+            MoneyMin =  20,
+            MoneyMax =  20,
+            TimeMin  = -5,
+            TimeMax  = -5
+        }
+    }
 })
 BW.ShopPrinter("Diamond", {
     ent = "bw_mp_diamond",
@@ -102,7 +162,19 @@ BW.ShopPrinter("Diamond", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 64,224,208, 255 ),
-    loot = { c=0, d=1, m=750000, rp=0 }
+    loot = { c=0, d=1, m=750000, rp=0 },
+    upg = {
+        price = 80,
+        max   = 3,
+        hp    = 10,
+        pwr   = 15,
+        vars  = {
+            MoneyMin =  20,
+            MoneyMax =  20,
+            TimeMin  = -5,
+            TimeMax  = -5
+        }
+    }
 })
 BW.ShopPrinter("Nuclear", {
     ent = "bw_mp_nuclear",
@@ -114,7 +186,19 @@ BW.ShopPrinter("Nuclear", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 255,0,0, 50 ),
-    loot = { c=0, d=1, m=2000000, rp=0 }
+    loot = { c=0, d=1, m=2000000, rp=0 },
+    upg = {
+        price = 100,
+        max   = 2,
+        hp    = 15,
+        pwr   = 20,
+        vars  = {
+            MoneyMin =  35,
+            MoneyMax =  35,
+            TimeMin  = -10,
+            TimeMax  = -10
+        }
+    }
 })
 BW.ShopPrinter("Darkmatter", {
     ent = "bw_mp_darkmatter",
@@ -126,7 +210,19 @@ BW.ShopPrinter("Darkmatter", {
     model = "models/props_lab/reciever01a.mdl",
     mat="models/shiny",
     color=Color( 0,0,0, 50 ),
-    loot = { c=0, d=1, m=3000000, rp=0 }
+    loot = { c=0, d=1, m=3000000, rp=0 },
+    upg = {
+        price = 110,
+        max   = 2,
+        hp    = 20,
+        pwr   = 30,
+        vars  = {
+            MoneyMin =  45,
+            MoneyMax =  45,
+            TimeMin  = -15,
+            TimeMax  = -15
+        }
+    }
 })
 -- VIP printer
 BW.ShopPrinter("Laser", {
