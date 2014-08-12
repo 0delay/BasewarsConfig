@@ -1,11 +1,9 @@
-
 lang = {}
-
 -- Language Parts
-    lang["bw_sv_con_msg_prefix"]        = "|--> BW-LUA : "
-    lang["bw_sv_con_br_prefix"]         = "|--> BW-LUA : "
-    lang["bw_cl_msg_prefix"]            = "--> "
-    lang["bw_cl_br_prefix"]             = "--> "
+lang["bw_sv_con_msg_prefix"]        = "|--> BW-LUA : "
+lang["bw_sv_con_br_prefix"]         = "|--> BW-LUA : "
+lang["bw_cl_msg_prefix"]            = "--> "
+lang["bw_cl_br_prefix"]             = "--> "
     
 lang.prop_spawn                        = "You spawned a prop!"
 lang.prop_block                        = "This prop is blacklisted!"
@@ -14,6 +12,7 @@ lang.prop_block3                       = "This prop is too big!"
 lang.prop_destroyed                    = { "Your ", " was destroyed!" }
 lang.stool_noown                       = "This is not your stuff!"
 lang.stool_nouse                       = "You can't toolgun this!"
+lang.stool_noshop                      = "You can't toolgun shop items!"
 
 lang.upgrade_notarget                  = "Look at a prop or structure to upgrade!"
 lang.upgrade_no                        = "You can't afford upgrade!"
@@ -33,14 +32,15 @@ lang.admin_cheats                      = "You cheated "
 lang.admin_move                        = ""
 lang.disabled                          = "Function is disabled!"
 
-
 lang.shop_death                        = "You are death!"
 lang.shop_error                        = "You can't do this now!"
+lang.shop_error_ent                    = "Shop error: "
 lang.shop_spam                         = "DONT SPAM THE SHOP!"
 lang.shop_buyammo                      = { " Ammo Purchased for ", cfg.cur.."." }
 lang.shop_freeammo                     = " Ammo collected."
 lang.shop_noammo                       = "This weapon does not need ammo!"
-lang.shop_noammo2                      = "You can't afford this ammo !"
+lang.shop_noammo2                      = "You can't afford this ammo!"
+lang.shop_noammo3                      = "You can't carry more of this ammo!"
 lang.shop_item_limit                   = "You can't spawn more powerups!"
 lang.shop_tooexp                       = { "You can't afford ", " !" }
 lang.shop_buy                          = { "You bought ", " for ", " $" }
@@ -71,6 +71,7 @@ lang.exp_get                           = { "Loot: ", "xp & ", "$" }
 lang.exp_loot1                         = "Destroyed: "
 lang.exp_loot2                         = "Loot: "
 lang.exp_loot3                         = "Kill exp: "
+lang.exp_lootraid                      = "Raidloot: "
 lang.exp_repair                        = "RepairExp: "
 lang.exp_up                            = "Levelup! Your are now Lvl"
 lang.exp_max                           = "You reached the max level!"
@@ -112,12 +113,27 @@ lang.door_buy                          = "You bought a door!"
 lang.door_sell                         = "You sold a door!"
 lang.door_error                        = "This door is in use!"
 
-lang.team_created                      = "You founded a team!"
+lang.team_basic                        = "LonelyRaiders"
+lang.team_admin                        = "** ADMIN **"
+lang.team_create                       = "You must leave your team first!"
+lang.team_created                      = "New team created: "
 lang.team_join                         = "You joined a team!"
 lang.team_falsepw                      = "Wrong password!"
 lang.team_public                       = "Team is privat!"
 lang.team_limit                        = "Max size reached!"
 lang.team_yourteam                     = "You are in this team!"
+lang.team_notleader                    = "You are not the leader of this team!"
+lang.team_leader                       = "You are now the leader of this team!"
+lang.team_newleader                    = "You set a new team leader: "
+lang.team_kick                         = " kicked from team."
+lang.team_kicked                       = "You have been kicked from the team!"
+lang.team_rename                       = "Renamed team to: "
+lang.team_noname                       = "Error - Use a valid team name!"
+lang.team_newpass                      = "You set a new team password."
+lang.team_nopass                       = "Removed password from team."
+lang.team_public                       = "Your team is now public."
+lang.team_private                      = "Your team is now private."
+lang.team_isprivate                    = "This team is private!"
 lang.team_error                        = "No valid team!"
 lang.team_error2                       = "You should enter team name!"
 lang.team_error3                       = "Team with this name already exists!"
@@ -130,7 +146,7 @@ lang.ally_rem                          = "Removed: "
 
 lang.raid_busy                         = "You can't do this during a raid!"
 lang.raid_disabled                     = "You can't raid now!"
-lang.raid_rq_target                    = "You can't scan yourself!"
+lang.raid_rq_target                    = "You can't scan your team!"
 lang.raid_rq_newplayer                 = { "You can't raid ", " after joining!" }
 lang.raid_rq_team                      = "You can't raid without a team :)"
 lang.raid_rq_radar                     = "You need a scan radar first!"
@@ -160,54 +176,3 @@ lang.raid_abort                        = "Raid canceled!"
 lang.raid_nocancel                     = "No raids to cancel."
 
 lang.indev                             = "This function is in development!"
-
-
-
-
-
-
-/*
-
-    Message system. Common icons and sounds
-    
-    -- Icons     ( icon16/icon.png )
-    cancel
-    cross
-    stop
-    exclamation
-    information
-    bullet_error
-    
-    
-    drive_error
-    bullet_go
-    coins_delete
-    
-    star
-    
-    -- Sound
-    
-    ambient/3dmeagle.wav
-    ambient/machines/squeak_1.wav
-    buttons/blip1.wav
-    items/battery_pickup.wav
-    
-    
-    
-    -- Usual combis
-    
-    Error 1:
-        - icon16/cancel.png
-        - items/medshotno1.wav
-        
-    
-    good buysounds
-    garrysmod/content_downloaded.wav
-    buttons/weapon_confirm.wav
-    buttons/weapon_cant_buy.wav
-    
-    
-    ply:SendMessage( lang., 3, colors[""], "icon16/.png", "" )
-    ply:SendMessage( lang.admin_only, 3, colors["error"], "icon16/cancel.png", "items/medshotno1.wav" )
-*/
---if ( SERVER ) then AddCSLuaFile() end

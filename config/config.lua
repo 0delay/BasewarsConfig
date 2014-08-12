@@ -1,4 +1,3 @@
-cfg = {}
 /*#################################################
 ###     Global Basewars settings
 #################################################*/
@@ -49,12 +48,11 @@ cfg = {}
     cfg.door_lock_types              = { "prop_door_rotating", "func_door", "func_door_rotating" }
     
     -- Raid settings
-    cfg.raid_printerprefix           = "bw_mp_"
+    cfg.raid_printerprefix           = { "bw_mp_*", "ngii_*_printer" } -- Important use wildcard *
     cfg.raid_minprinter              = "bw_mp_bronze"
     cfg.raid_minprinters             = { "bw_mp_supercharged", "bw_mp_bronze", "bw_mp_silver", "bw_mp_gold", "bw_mp_platin", "bw_mp_diamond", "bw_mp_nuclear", "bw_mp_darkmatter" }
-    cfg.raid_scanblocker_maxtime     = 60*20    
-    cfg.radar_scans                  = 10
-    cfg.radar_cooldown               = 40,240
+    cfg.raid_scanblocker_maxtime     = 60*20
+    cfg.raid_maxscans                = 10
     cfg.teleporter_range             = {350,800}
     
     cfg.max_dispenser                 = 2
@@ -71,38 +69,6 @@ cfg = {}
     -- Explosion damage range
     cfg.dmg_blastrange               = 40
     cfg.dmg_ignore                   = { "m9k_nervegasnade", "m9k_mad_c4", "m9k_launched_m79", "m9k_launched_ex41", "m9k_released_poison" }
-    
-    -- Ammo types & price
-    ------------------------------------------------------
-    -- Values: #1 Amount per buy or dispenser use
-    --         #2 Price per stack
-    --         #3 Dispenser load cost
-    --         #4 (Optional) Damage scale value.
-    --            If a value greater than 0 is set it will override the global scaling ( dmg_bullet / dmg_blast )
-    -- 
-    --    cfg.ammo_types["ammotypehere"] = { amount, price, dispensercost, damagescale }
-    cfg.ammo_types={} 
-    cfg.ammo_types["default"]                  = { 1, 150  , 5 }    -- Default ammo if no other found
-    cfg.ammo_types["pistol"]                   = { 25, 75  , 2 , 0 }      -- Pistol
-    cfg.ammo_types["357"]                      = { 25, 100 , 2 , 0 }      -- 357
-    cfg.ammo_types["smg1"]                     = { 50, 250 , 4 , 0 }      -- SMG
-    cfg.ammo_types["ar2"]                      = { 50, 270 , 5 , 0 }      -- Rifle
-    cfg.ammo_types["buckshot"]                 = { 25, 250 , 4 , 0 }      -- Shotgun
-    cfg.ammo_types["Grenade"]                  = { 2,  250 , 10, 0 }      -- 
-    cfg.ammo_types["40mmGrenade"]              = { 2,  250 , 10, 0 }      -- 
-    cfg.ammo_types["StickyGrenade"]            = { 2,  250 , 10, 0 }      -- 
-    cfg.ammo_types["C4Explosive"]              = { 2,  250 , 10, 0 }      -- 
-    cfg.ammo_types["ProxMine"]                 = { 2,  250 , 10, 0 }      -- 
-    cfg.ammo_types["RPG_Round"]                = { 1,  2500, 10, 0 }      -- 
-    cfg.ammo_types["SMG1_Grenade"]             = { 1,  500 , 10, 0 }      -- 
-    cfg.ammo_types["SniperRound"]              = { 5,  150 , 5 , 0 }      -- 
-    cfg.ammo_types["SniperPenetratedRound"]    = { 5,  170 , 5 , 0 }      -- 
-    cfg.ammo_types["AirboatGun"]               = { 50, 300 , 6 , 0 }      -- 
-    cfg.ammo_types["CombineCannon"]            = { 50, 280 , 6 , 0 }      -- 
-    cfg.ammo_types["StriderMinigun"]           = { 50, 350 , 6 , 0 }      -- 
-    cfg.ammo_types["XBowBolt"]                 = { 5,  180 , 5 , 0 }      -- 
-    cfg.ammo_types["slam"]                     = { 50, 300 , 8 , 0 }      -- 
-    cfg.ammo_types["7.62x39mm"]                = { 50, 300 , 8 , 0 }      -- FAS Rifles
     
     -- Prop protection
     -- Autoremoval time for stuff of disconnected players

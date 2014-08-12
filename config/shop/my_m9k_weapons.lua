@@ -1,6 +1,22 @@
 /*#################################################
+###     M9K Ammotypes
+#################################################*/
+
+cfg.ammo_types["Harpoon"]                = { 1,  250 , 10, 0, 1   }
+cfg.ammo_types["40mmGrenade"]            = { 2,  250 , 10, 0, 20  }   -- 40mmGrenade
+cfg.ammo_types["StickyGrenade"]          = { 2,  250 , 10, 0, 20  }   -- StickyGrenade
+cfg.ammo_types["C4Explosive"]            = { 2,  250 , 10, 0, 10  }   -- C4Explosive
+cfg.ammo_types["ProxMine"]               = { 2,  250 , 10, 0, 10  }   -- ProxMine
+cfg.ammo_types["nitroG"]                 = { 2,  250 , 10, 0, 10  }   -- Nitro Glycerine
+cfg.ammo_types["NerveGas"]               = { 2,  250 , 10, 0, 10  }   -- Nerve Gas
+cfg.ammo_types["Improvised_Explosive"]   = { 2,  250 , 10, 0, 10  }   -- IED Detonator
+cfg.ammo_types["SatCannon"]              = { 2,  250 , 10, 0, 1   }   -- Orbital-Strike
+cfg.ammo_types["Davy-Crockett"]          = { 2,  250 , 10, 0, 1   }   -- Explosive
+
+/*#################################################
 ###     Melee weapons
 #################################################*/
+
 /*
 BW.ShopWeapon("Fists", {
     cat = "Weapon - Melee",
@@ -11,6 +27,7 @@ BW.ShopWeapon("Fists", {
     model = "models/weapons/v_punchy.mdl"
 })
 */
+
 BW.ShopWeapon("Knife", {
     cat = "Weapon - Melee",
     ent = "m9k_knife",
@@ -43,17 +60,11 @@ BW.ShopWeapon("Harpoon", {
     order = 4,
     model = "models/weapons/w_harpooner.mdl"
 })
-BW.ShopWeapon("Blowtorch", {
-    cat = "Weapon - Melee",
-    ent = "bw_wep_blowtorch",
-    hint = "Blows props",
-    price = 2500,
-    order = 10,
-    model = "models/weapons/w_pistol.mdl"
-})
+
 /*#################################################
 ###     Pistols
 #################################################*/
+
 BW.ShopWeapon("Colt 1911", {
     cat = "Weapon - Pistols",
     ent = "m9k_colt1911",
@@ -198,9 +209,11 @@ BW.ShopWeapon("USP", {
     upg={5,15,0,0,5,0,0,5},
     model = "models/weapons/w_pist_fokkususp.mdl"
 })
+
 /*#################################################
 ###     SMGs
 #################################################*/
+
 BW.ShopWeapon("Bizon p19", {
     cat = "Weapon - SMGs",
     ent = "m9k_bizonp19",
@@ -345,6 +358,7 @@ BW.ShopWeapon("Vector", {
     upg={4,4,0,0,3,3,3,3},
     model = "models/weapons/w_kriss_vector.mdl"
 })
+
 /*#################################################
 ###     Rifles
 #################################################*/
@@ -520,15 +534,18 @@ BW.ShopWeapon("Val", {
     upg = {4,3,0,0,3,5,5,5},
     model = "models/weapons/w_dmg_vally.mdl"
 })
+
 /*#################################################
 ###     Heavy machine guns
 #################################################*/
+
 BW.ShopWeapon("Ares Shrike", {
     ent = "m9k_ares_shrike",
     cat = "Weapon - Heavy",
     hint = "",
     price = 150000,
-    order = 1, upg={5,10,5,0,10,0,0,0},
+    order = 1,
+    upg={5,10,5,0,10,0,0,0},
     model = "models/weapons/w_ares_shrike.mdl"
 })
 BW.ShopWeapon("fg42", {
@@ -542,7 +559,7 @@ BW.ShopWeapon("fg42", {
 BW.ShopWeapon("M60", {
     ent = "m9k_m60",
     cat = "Weapon - Heavy",
-    hint = "OMFG it's THE M60!",
+    hint = "OMFG - THE M60!",
     price = 17000,
     order = 3,
     upg={5,10,5,0,10,0,5,0},
@@ -576,9 +593,11 @@ BW.ShopWeapon("MiniGun", {
     admin=true
 })
 */
+
 /*#################################################
 ###     Sniper rifles
 #################################################*/
+
 BW.ShopWeapon("AW50", {
     cat = "Weapon - Snipers",
     ent = "m9k_aw50",
@@ -675,9 +694,11 @@ BW.ShopWeapon("Dagunov SVU", {
     order = 12,
     model = "models/weapons/w_dragunov_svu.mdl"
 })
+
 /*#################################################
 ###     Shotguns
 #################################################*/
+
 BW.ShopWeapon("Winchester mod.1887", {
     cat = "Weapon - Shotguns",
     ent = "m9k_1887winchester",
@@ -795,55 +816,11 @@ BW.ShopWeapon("Winchester mod.73", {
     upg={3,2,0,0,1,3,0,3},
     model = "models/weapons/w_winchester_1873.mdl"
 })
+
 /*#################################################
 ###     Explosives
 #################################################*/
-/*
-BW.ShopWeapon("Grenade", {
-    cat = "Weapon - Explosives",
-    ent = "weapon_mad_grenade",
-    hint = "",
-    price = 3000,
-    order = 1,
-    model = "models/weapons/w_eq_fraggrenade.mdl"
-})
-BW.ShopWeapon("Incendiary", {
-    cat = "Weapon - Explosives",
-    ent = "weapon_mad_incendiary",
-    hint = "",
-    price = 3000,
-    order = 2,
-    model = "models/weapons/w_eq_smokegrenade.mdl"
-})
-BW.ShopWeapon("Gas", {
-    cat = "Weapon - Explosives",
-    ent = "weapon_mad_gasgrenade",
-    hint = "",
-    price = 3000,
-    order = 3,
-    model = "models/Items/grenadeAmmo.mdl"
-})
-BW.ShopWeapon("Flash Bang", {
-    cat = "Weapon - Explosives",
-    ent = "weapon_mad_flash",
-    hint = "",
-    price = 1500,
-    order = 4,
-    model = "models/weapons/w_eq_flashbang.mdl"
-})
-BW.ShopWeapon("RPG", {
-    cat = "Weapon - Explosives",
-    ent = "weapon_mad_rpg",
-    hint = "",
-    price = 40000,
-    order = 6,
-    model = "models/weapons/w_rocket_launcher.mdl",
-    level = 2
-})
-*/
-/*#################################################
-###     Explosives
-#################################################*/
+
 BW.ShopWeapon("Grenade", {
     cat = "Weapon - Explosives",
     ent = "m9k_m61_frag",
@@ -862,16 +839,24 @@ BW.ShopWeapon("StickyGrenade", {
     level = 2
 })
 /*
-BW.ShopWeapon("GasGrenade", {
-    cat = "Weapon - Explosives",
+BW.ShopWeapon("Nitro Glycerine", {
+    cat = "M9K Specialties",
+    ent = "m9k_nitro",
+    hint = "",
+    price = 100,
+    order = 45,
+    model = "models/weapons/w_nitro.mdl"
+})
+BW.ShopWeapon("Nerve Gas", {
+    cat = "M9K Specialties",
     ent = "m9k_nerve_gas",
     hint = "",
-    price = 3000,
-    order = 3,
-    model = "models/weapons/w_grenade.mdl",
-    level = 3
+    price = 100,
+    order = 95,
+    model = "models/weapons/w_grenade.mdl"
 })
 */
+
 BW.ShopWeapon("C4", {
     cat = "Weapon - Explosives",
     ent = "m9k_suicide_bomb",
@@ -890,9 +875,50 @@ BW.ShopWeapon("Proxy Mine", {
     model = "models/weapons/w_px.mdl",
     level = 3
 })
+/* -----------------------------------
+-- These are too op just remove the 3 comment lines if you want to use them
+BW.ShopWeapon("M202-RL", {
+    cat = "Admin - Weapons :D",
+    ent = "m9k_m202",
+    hint = "",
+    price = 0,
+    order = 2,
+    admin = true,
+    model = "models/weapons/w_rocket_launcher.mdl"
+})
+BW.ShopWeapon("IED", {
+    cat = "Admin - Weapons :D",
+    ent = "m9k_ied_detonator",
+    hint = "",
+    price = 0,
+    order = 3,
+    admin = true,
+    model = "models/weapons/w_camphon2.mdl"
+})
+BW.ShopWeapon("Orbital-Strike", {
+    cat = "Admin - Weapons :D",
+    ent = "m9k_orbital_strike",
+    hint = "",
+    price = 0,
+    order = 5,
+    admin = true,
+    model = "models/weapons/w_binos.mdl"
+})
+BW.ShopWeapon("Davy-Crockett", {
+    cat = "Admin - Weapons :D",
+    ent = "m9k_davy_crockett",
+    hint = "",
+    price = 0,
+    order = 6,
+    admin = true,
+    model = "models/weapons/w_RL7.mdl"
+})
+*/ ----------------------------------- 
+
 /*#################################################
 ###     Rocket launcher
 #################################################*/
+
 BW.ShopWeapon("RPG7", {
     cat = "Weapon - Explosives",
     ent = "m9k_rpg7",
@@ -900,25 +926,7 @@ BW.ShopWeapon("RPG7", {
     price = 50000,
     order = 6,
     model = "models/weapons/w_GDC_RPG7.mdl"
-})  
-/*
-BW.ShopWeapon("RPG-RL", {
-    cat = "Weapon - Explosives",
-    ent = "bw_wep_rpg",
-    hint = "",
-    price = 60000,
-    order = 7,
-    model = "models/weapons/w_rocket_launcher.mdl"
 })
-*/
-BW.ShopWeapon("RPG-RL", {
-    cat = "Weapon - Explosives",
-    ent = "weapon_rpg",
-    hint = "",
-    price = 60000,
-    order = 7,
-    model = "models/weapons/w_rocket_launcher.mdl"
-})  
 BW.ShopWeapon("Matador-RL", {
     cat = "Weapon - Explosives",
     ent = "m9k_matador",
@@ -955,55 +963,3 @@ BW.ShopWeapon("Milkorm-GL", {
     model = "models/weapons/w_milkor_mgl1.mdl",
     level = 8
 })
-/*#################################################
-###     Admin weapons
-#################################################*/
-/*
-BW.ShopWeapon("The Nyangun", {
-    cat = "Admin - Weapons :D",
-    ent = "weapon_nyangun",
-    hint = "",
-    price = 0,
-    order = 1,
-    admin = true,
-    model = "models/weapons/w_smg1.mdl"
-})
-BW.ShopWeapon("M202-RL", {
-    cat = "Admin - Weapons :D",
-    ent = "m9k_m202",
-    hint = "",
-    price = 0,
-    order = 2,
-    admin = true,
-    model = "models/weapons/w_rocket_launcher.mdl"
-})
-
-BW.ShopWeapon("IED", {
-    cat = "Admin - Weapons :D",
-    ent = "m9k_ied_detonator",
-    hint = "",
-    price = 0,
-    order = 3,
-    admin = true,
-    model = "models/weapons/w_camphon2.mdl"
-})
-
-BW.ShopWeapon("Orbital-Strike", {
-    cat = "Admin - Weapons :D",
-    ent = "m9k_orbital_strike",
-    hint = "",
-    price = 0,
-    order = 5,
-    admin = true,
-    model = "models/weapons/w_binos.mdl"
-})
-BW.ShopWeapon("Davy-Crockett", {
-    cat = "Admin - Weapons :D",
-    ent = "m9k_davy_crockett",
-    hint = "",
-    price = 0,
-    order = 6,
-    admin = true,
-    model = "models/weapons/w_RL7.mdl"
-})
-*/
