@@ -27,6 +27,11 @@ BW.ShopStruc("Spawn Point", {
     loot = { c=0, d=1, m=250, rp=0 },
     modify = {
         HpMax    = 100
+    },
+    upg = {
+        price = 250,
+        max   = 3,
+        hp    = 20
     }
 })
 BW.ShopStruc("Radar", {

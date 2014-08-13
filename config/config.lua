@@ -49,8 +49,7 @@
     
     -- Raid settings
     cfg.raid_printerprefix           = { "bw_mp_*", "ngii_*_printer" } -- Important use wildcard *
-    cfg.raid_minprinter              = "bw_mp_bronze"
-    cfg.raid_minprinters             = { "bw_mp_supercharged", "bw_mp_bronze", "bw_mp_silver", "bw_mp_gold", "bw_mp_platin", "bw_mp_diamond", "bw_mp_nuclear", "bw_mp_darkmatter" }
+    cfg.raid_minprinters             = { "bw_mp_bronze","bw_mp_ruby","bw_mp_silver","bw_mp_gold","bw_mp_emerald","bw_mp_platin","bw_mp_diamond","bw_mp_blackhole","bw_mp_nuclear","bw_mp_darkmatter" }
     cfg.raid_scanblocker_maxtime     = 60*20
     cfg.raid_maxscans                = 10
     cfg.teleporter_range             = {350,800}
@@ -64,10 +63,6 @@
     cfg.weapons_nodrop               = { "gmod_tool", "gmod_camera", "weapon_physcannon", "weapon_physgun", "bw_keys", "weapon_fists" }
     
     -- Global damage scale ( 1 = 100% )
-    cfg.dmg_bullet                   = 0.4
-    cfg.dmg_blast                    = 0.1
-    -- Explosion damage range
-    cfg.dmg_blastrange               = 40
     cfg.dmg_ignore                   = { "m9k_nervegasnade", "m9k_mad_c4", "m9k_launched_m79", "m9k_launched_ex41", "m9k_released_poison" }
     
     -- Prop protection

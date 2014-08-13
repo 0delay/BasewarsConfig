@@ -105,7 +105,7 @@ lang.drug_adrenaline                   = "Adrenaline"
 lang.drug_steroids                     = "Steroids"
 lang.drug_lifereg                      = "Regeneration"
 
-lang.radar_ready                       = { "Radar tower is ready to scan.", " scans." }
+lang.radar_ready                       = "Radar tower is ready to scan: "
 lang.radar_full                        = { "Radar tower is fully charged at ", " charges." }
 
 lang.door_limit                        = { "You can't buy more than ", " doors!" }
