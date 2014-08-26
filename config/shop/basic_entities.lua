@@ -115,7 +115,6 @@ BW.ShopStruc("Gun Lab", {
     level = 5,
     loot = { c=0, d=1, m=12500, rp=0 },
     modify = {
-        PowerMax = 50,
         HpMax    = 75
     }
 })
