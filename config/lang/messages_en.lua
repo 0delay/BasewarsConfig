@@ -47,6 +47,8 @@ lang.shop_buy                          = { "You bought ", " for ", " $" }
 lang.shop_limit                        = { "Limit reached: ", " !" }
 lang.shop_vip                          = "VIP only!"
 lang.shop_rq_level                     = { "You need level ", " !" }
+lang.shop_uniqueprinter                = " money printer detected!"
+lang.shop_uniqueprinter2               = { "There can only be one ", "!" }
 
 lang.shop_rq_tp_tooclose               = "Too close!"
 lang.shop_rq_tp_toofar                 = "Too far away!"
