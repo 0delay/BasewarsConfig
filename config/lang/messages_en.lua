@@ -56,6 +56,7 @@ lang.shop_weapon_got                   = { "You already got ", " !" }
 lang.shop_prop_limit                   = "Prop limit!"
 lang.shop_vehicle_limit                = "Vehicle limit!"
 
+lang.money_pickup                      = {"You found some money: ", " $ !"}
 lang.money_error                       = "Enter valid amount!"
 lang.money_dropmax                     = "Max value is "
 lang.money_drop                        = { "You dropped ", " $ !" }
