@@ -100,8 +100,8 @@ BW.ShopPrinter("Bronze", {
     order = 6,
     limit=2,
     level=0,
-    model = "models/props_lab/reciever01a.mdl",
-    mat="models/shiny",
+    model = "models/props_c17/consolebox03a.mdl",
+    --mat="models/shiny",
     color = Color( 184,134,11, 255 ),
     loot = { c=0, d=1, m=8000, rp=0 },
     modify = {
@@ -133,8 +133,8 @@ BW.ShopPrinter("Silver", {
     order = 8,
     limit=3,
     level=0,
-    model = "models/props_lab/reciever01a.mdl",
-    mat="models/shiny",
+    model = "models/props_c17/consolebox03a.mdl",
+    --mat="models/shiny",
     color = Color( 192,192,192, 255 ),
     loot = { c=0, d=1, m=30000, rp=0 },
     modify = {
@@ -166,8 +166,8 @@ BW.ShopPrinter("Gold", {
     order = 9,
     limit=4,
     level=0,
-    model = "models/props_lab/reciever01a.mdl",
-    mat="models/shiny",
+    model = "models/props_c17/consolebox03a.mdl",
+    --mat="models/shiny",
     color = Color( 255,215,0, 255 ),
     loot = { c=0, d=1, m=80000, rp=0 },
     modify = {
@@ -266,7 +266,8 @@ BW.ShopPrinter("Nuclear", {
     limit=1,
     level=3,
     model = "models/props_lab/reciever01a.mdl",
-    mat = "models/props_lab/cornerunit_cloud",
+    --mat = "models/props_lab/cornerunit_cloud",
+    mat = "models/XQM/polex1_normal",
     color = Color( 255,0,0, 50 ),
     loot = { c=0, d=1, m=2000000, rp=0 },
     modify = {
@@ -301,7 +302,7 @@ BW.ShopPrinter("Darkmatter", {
     model = "models/props_lab/reciever01a.mdl",
     --mat = "models/props_combine/com_shield001a",
     mat = "models/XQM/LightLinesRed_tool",
-    color=Color( 240,0,0, 50 ),
+    color=Color( 0,0,240, 50 ),
     loot = { c=0, d=1, m=3000000, rp=0 },
     modify = {
         PowerMax = 60,

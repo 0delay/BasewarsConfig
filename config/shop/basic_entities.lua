@@ -330,7 +330,7 @@ BW.ShopStruc("SuperGen", {
     order = 8,
     limit=2,
     level=2,
-    model = "models/props_wasteland/laundry_washer003.mdl",
+    model = "models/maxofs2d/thruster_propeller.mdl",
     loot = { c=0, d=1, m=1500, rp=0 },
     modify = {
         Power    = 300,
@@ -348,7 +348,7 @@ BW.ShopStruc("NuclearGen", {
     order = 9,
     limit=2,
     level=3,
-    model = "models/maxofs2d/thruster_propeller.mdl",
+    model = "models/props_wasteland/laundry_washer003.mdl",
     loot = { c=0, d=1, m=25000, rp=0 },
     modify = {
         Power    = 500,
