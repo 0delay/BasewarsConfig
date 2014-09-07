@@ -266,8 +266,7 @@ BW.ShopPrinter("Nuclear", {
     limit=1,
     level=3,
     model = "models/props_lab/reciever01a.mdl",
-    --mat = "models/props_lab/cornerunit_cloud",
-    mat = "models/XQM/polex1_normal",
+    mat = "models/props_lab/cornerunit_cloud",
     color = Color( 255,0,0, 50 ),
     loot = { c=0, d=1, m=2000000, rp=0 },
     modify = {
@@ -302,7 +301,7 @@ BW.ShopPrinter("Darkmatter", {
     model = "models/props_lab/reciever01a.mdl",
     --mat = "models/props_combine/com_shield001a",
     mat = "models/XQM/LightLinesRed_tool",
-    color=Color( 0,0,240, 50 ),
+    color=Color( 255,0,0, 255 ),
     loot = { c=0, d=1, m=3000000, rp=0 },
     modify = {
         PowerMax = 60,
