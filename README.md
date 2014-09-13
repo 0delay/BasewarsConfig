@@ -55,12 +55,11 @@ Players can type this commands into their chat to execute it.
 | *Drop Weapon*               | !dropweapon /dropweapon !drop /drop !dw /dw |
 | *Upgrade*                   | !upgrade /upgrade !upg /upg !up /up |
 | *Buy/sell door*             | !buydoor /buydoor !bd /bd !selldoor /selldoor !sd /sd |
-| *UberDrug*                  | !drug |
 
 #### Console commands
 
-- The game settings can be changed during runtime using the gmod ConVar (cvar) system.
-- These cvars can be changed using console or the bw settings menu inside the spawnmenu
+- The game settings can be changed during runtime using the Gmod **ConVar** (**cvar**) system.
+- These **cvars** can be changed using console or the bw settings menu inside the spawnmenu
 
 ##### Player cvars
 
@@ -74,7 +73,7 @@ Players can type this commands into their chat to execute it.
 
 ##### Admin cvars
 
-- *Admin cvars to change admin stuff*
+- *Admin cvars to access admin stuff*
 
 |     Description             |    Command    |
 | --------------------------- | ------------- |
@@ -97,9 +96,11 @@ Players can type this commands into their chat to execute it.
 | *Bulletdamagescale*         | bw_damagescale_bullet 0.4 (Global bullet damage scale) |
 | *Blastdamagescale*          | bw_damagescale_blast 0.1 (Global explosion damage scale) |
 | *Blastdamage range*         | bw_damage_blastrange 40 (Explosion splash damage range) |
+| | |
 | *Friendlyfire*              | mp_friendlyfire 0/1 |
 | *Anitrdm*                   | bw_antirdm 1/0 |
 | *PP Antipropkill*           | bw_antipropkill 1/0 |
+| | |
 | *BasewarsVoiceSystem*       | sv_alltalk 1 |
 | *Voicebyrange*              | bw_voicefade 1/0 |
 | *Voicerange*                | bw_voicerange 1500 |
