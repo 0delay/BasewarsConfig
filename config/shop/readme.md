@@ -1,8 +1,7 @@
 # BasewarsRevival
----
 
 ## Shop config files
----
+
 If you want to add new items to the shop menus, just make new file inside the **basewars/gamemode/config/shop/**
 folder with the extension **.lua**
 
