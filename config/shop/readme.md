@@ -45,7 +45,7 @@ You will find an explanation of all values below:
 
 ### Shop entry values
 
-*Needed values:*
+- *Needed values:*
 ```
     Entityname                                 --> BW.Shop...("A fancy new entity"
     ent = "class_name_of_entity"               --> Classname of the entity used by the engine
@@ -53,7 +53,7 @@ You will find an explanation of all values below:
     price = 1500                               --> Money price cost
 ```
 
-*Optional values:*
+- *Optional values:*
 ```
     rp = 1                                     --> Raidpoint cost
     level = 1                                  --> Player level requirement
@@ -68,7 +68,7 @@ You will find an explanation of all values below:
     loot = { c = 1, d = 1, m = 10, rp = 1 }    --> Loot system (see below)
 ```
 
-*Overrides for entites:*
+- *Overrides for entites:*
 ```
     modify = {                  <-- You can override the default vaules to balance entities
         PowerMax = 60,
@@ -80,7 +80,7 @@ You will find an explanation of all values below:
     }
 ```
 
-*Upgrade system values:*
+- *Upgrade system values:*
 ```
     upg = {5,10,5,0,10,0,5,0}   <-- Use this for weapons
     upg = {                     <-- Use this for entites
@@ -98,7 +98,7 @@ You will find an explanation of all values below:
 ```
 
 ## Table explanations:
-Loot tables:
+- Loot tables:
 ```
     Players will receive this values on certain events (mainly at raids)
     c -> create xp | d -> destroy xp | m -> money loot | rp -> raidpoint loot
@@ -106,7 +106,7 @@ Loot tables:
     loot = { c = 1, d = 1, m = 100, rp = 1 }
 ```
 
-Entity overrides:
+- Entity overrides:
 ```
     modify = {
         PowerMax = 60,
@@ -118,7 +118,7 @@ Entity overrides:
     }
 ```
 
-Weapon upgrade tables:
+- Weapon upgrade tables:
 ```
     Upgrade system info:    upg={5,10,0,0,10,0,0,0}
     First value = max upgrades on this weapon
@@ -128,7 +128,7 @@ Weapon upgrade tables:
     ! Dont upgrade admin weapons, they will error like shit lol !
 ```
 
-Entities upgrade tables:
+- Entities upgrade tables:
 ```
     upg = {
         price = 500,  -- Upgradecost per lvl
