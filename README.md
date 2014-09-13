@@ -47,6 +47,7 @@ This is the first version of the readme, more info soon...
 #### Chat commands
 
 Players can type this commands into their chat to execute it.
+> *The most common commands can be accessed by pressing 'C' to open the quickmenu.*
 
 |     Description             |    Command    |
 | --------------------------- | ------------- |
@@ -58,12 +59,10 @@ Players can type this commands into their chat to execute it.
 
 #### Console commands
 
-- *The most common commands can be accessed by pressing 'C' to open the quickmenu.*
-- *All other settings are also available in the spawnmenu in the settings tab.*
+- The game settings can be changed during runtime using the gmod ConVar (cvar) system.
+- These cvars can be changed using console or the bw settings menu inside the spawnmenu
 
-> Many game settings can be changed during runtime using the gmod ConVar (cvar) system.
-
-##### Players
+##### Player cvars
 
 - *Player cvars to change basic stuff*
 
@@ -73,7 +72,7 @@ Players can type this commands into their chat to execute it.
 | *Switch scoreboard*         | bw_scoreboard 1-4 |
 | | |
 
-##### Admin
+##### Admin cvars
 
 - *Admin cvars to change admin stuff*
 
@@ -88,7 +87,7 @@ Players can type this commands into their chat to execute it.
 | *PP Pickup players* | bw_pp_pickup_player 0/1 |
 | | |
 
-##### Server
+##### Server cvars
 
 - *Server cvars to change gamemode settings*
 
