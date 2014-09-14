@@ -1,14 +1,24 @@
 ![BasewarsRevial Logo](http://cloud-4.steampowered.com/ugc/70123212843973627/8A5B505792243D0BB87AFB72AE5399593D0E2005/)
 ------------------------
+# BasewarsRevival Readme
+
 Welcome to BasewarsRevival
 
 This is the first version of the readme, more info soon...
 
-1. *Installation*
-2. *Update*
-3. *Adding new content*
-4. *Configuration*
-5. *Chat and console commands*
+## Contents
+
+1. *[Installation](README.md#1-installation)*
+2. *[Update](README.md#2-update)*
+3. *[Adding new content](README.md#3-adding-new-content)*
+4. *[Configuration](README.md#4-configuration)*
+5. *[Chat and console commands](README.md#5-chat-and-console-commands)*
+
+- **Basewars related links:**
+    - [Official Steamgroup][steamgrp]
+    - [Issuetracker][issues]
+    - [Request features][request]
+    - [Discuss the gamemode][help]
 
 ------------------------
 ## 1. Installation
@@ -33,7 +43,7 @@ This is the first version of the readme, more info soon...
 - Install your new content so that it is available on your server.
 - (Use workshop or whatever method you prefer)
 - After proper installation just add a new entry for it to the shop config files
-- You can find a guide how to do this in your **basewars/gamemode/config/shop/readme.txt**
+- You can find a guide how to do this in your **[basewars/gamemode/config/shop/README.md][cfghelp]**
 
 ------------------------
 ## 4. Configuration
@@ -123,3 +133,4 @@ Players can type this commands into their chat to execute it.
 [issues]:https://github.com/BasewarsRevival/basewars-issues
 [request]:https://github.com/BasewarsRevival/basewars-requests
 [help]:http://steamcommunity.com/groups/BasewarsRevival/discussions/2/
+[cfghelp]:https://github.com/0delay/BasewarsConfig/tree/master/config/shop
