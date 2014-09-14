@@ -36,7 +36,7 @@ Now create a shop entry for every item you want to add, this can look like this:
 You will find an explanation of all values below:
 
 ### Choose a shop tab to show your item
-```
+```lua
     BW.ShopItem     -- Item tab
     BW.ShopStruc    -- Structures tab
     BW.ShopPrinter  -- Printer tab
@@ -46,7 +46,7 @@ You will find an explanation of all values below:
 ### Shop entry values
 
 - *Needed values:*
-```
+```lua
     Entityname                                 --> BW.Shop...("A fancy new entity"
     ent = "class_name_of_entity"               --> Classname of the entity used by the engine
     limit = 1                                  --> Max amount players can buy
@@ -54,7 +54,7 @@ You will find an explanation of all values below:
 ```
 
 - *Optional values:*
-```
+```lua
     rp = 1                                     --> Raidpoint cost
     level = 1                                  --> Player level requirement
     vip = true                                 --> Only accessible for vip players and admins
@@ -69,7 +69,7 @@ You will find an explanation of all values below:
 ```
 
 - *Overrides for entites:*
-```
+```lua
     modify = {                  <-- You can override the default vaules to balance entities
         PowerMax = 60,
         HpMax    = 200,
@@ -81,7 +81,7 @@ You will find an explanation of all values below:
 ```
 
 - *Upgrade system values:*
-```
+```lua
     upg = {5,10,5,0,10,0,5,0}   <-- Use this for weapons
     upg = {                     <-- Use this for entites
         price = 500,
@@ -99,7 +99,7 @@ You will find an explanation of all values below:
 
 ## Table explanations:
 - Loot tables:
-```
+```lua
     Players will receive this values on certain events (mainly at raids)
     c -> create xp | d -> destroy xp | m -> money loot | rp -> raidpoint loot
     For exp only use values from 1 to 10. It scales per lvl of the player receiving the loot.
@@ -107,7 +107,7 @@ You will find an explanation of all values below:
 ```
 
 - Entity overrides:
-```
+```lua
     modify = {
         PowerMax = 60,
         HpMax    = 200,
@@ -119,7 +119,7 @@ You will find an explanation of all values below:
 ```
 
 - Weapon upgrade tables:
-```
+```lua
     Upgrade system info:    upg={5,10,0,0,10,0,0,0}
     First value = max upgrades on this weapon
     Extra Values per level in % (+10%Damage/...)
@@ -129,7 +129,7 @@ You will find an explanation of all values below:
 ```
 
 - Entities upgrade tables:
-```
+```lua
     upg = {
         price = 500,  -- Upgradecost per lvl
         max   = 3,    -- Max level
@@ -151,10 +151,3 @@ You will find an explanation of all values below:
 >    - ent = "bw_item_health"  <-- wrong
 >    - ent = "bw_item_health", <-- right
 > You dont need it on the last value.
-
-
-
-[steamgrp]:http://steamcommunity.com/groups/BasewarsRevival
-[issues]:https://github.com/BasewarsRevival/basewars-issues
-[request]:https://github.com/BasewarsRevival/basewars-requests
-[help]:http://steamcommunity.com/groups/BasewarsRevival/discussions/2/
