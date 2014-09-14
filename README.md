@@ -133,6 +133,8 @@ Players can type this commands into their chat to execute it.
 
 
 
+##### **Copyright 2014 by .delay**
+
 [steamgrp]:http://steamcommunity.com/groups/BasewarsRevival
 [issues]:https://github.com/BasewarsRevival/basewars-issues
 [request]:https://github.com/BasewarsRevival/basewars-requests
