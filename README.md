@@ -8,11 +8,11 @@ This is the first version of the readme, more info soon...
 
 ## Contents
 
-1. *[Installation](README.md#1-installation)* 
-2. *[Update](README.md#2-update)* 
-3. *[Adding new content](README.md#3-adding-new-content)* 
-4. *[Configuration](README.md#4-configuration)* 
-5. *[Chat and console commands](README.md#5-chat-and-console-commands)* 
+1. [Installation](README.md#1-installation)
+2. [Update](README.md#2-update)
+3. [Adding new content](README.md#3-adding-new-content)
+4. [Configuration](README.md#4-configuration)
+5. [Chat and console commands](README.md#5-chat-and-console-commands)
 
 - **Basewars related links:**
     - [Official Steamgroup][steamgrp]
