@@ -27,11 +27,15 @@ This is the first version of the readme, more info soon...
 ------------------------
 ## 1. Installation
 
-- Copy the basewars folder to your **gamemodes** folder of your server.
+- Copy the basewars folder to your **gamemodes** folder of your server
+
 - Go to your **basewars/gamemode/config/** folder and change settings in the **config.lua**
-- You can add new weapons, entites, printer or vehicles by adding entries in the shop config files.
-- There are a few example config files included for some popular weapon packs.
-- Check the **Shop config files section** below for full instructions.
+
+- You can add new weapons, entites, printer or vehicles by adding entries in the shop config files
+
+- There are a few example config files included for some popular weapon packs
+
+- Check the **Shop config files section** below for full instructions
 
 - !!! Always restart your server after you made changes to one of the lua files !!! (Autorefresh is NOT compatible with the gamemode)
 
